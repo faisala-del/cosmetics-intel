@@ -1,1 +1,9 @@
+name: Refresh briefing and deploy site
 
+on:
+  schedule:
+    - cron: "30 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
