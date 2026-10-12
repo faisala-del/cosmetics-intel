@@ -1,0 +1,145 @@
+# ---------------------------------------------------------------------------
+# Cosmetics Intelligence - configuration
+# Edit this file to add or remove sources, queries and tickers.
+# Run `python -m scripts.build --check` after every edit to test the sources.
+# ---------------------------------------------------------------------------
+
+# SEC EDGAR and some sites reject requests without a contact address.
+# Replace with your own email.
+user_agent: "cosmetics-intel/1.0 (contact: your-email@example.com)"
+
+claude:
+  # Cheap, fast model that tags and summarises each item.
+  classify_model: claude-haiku-5-5
+  # Stronger model that writes the short "what changed" overview.
+  digest_model: claude-sonnet-5-5
+
+lookback_days: 14          # how far back each fetch looks
+retain_days: 60            # how long items stay on the site
+max_per_source: 15         # items taken from each query or feed
+batch_size: 12             # items sent to Claude per call
+max_new_items_per_run: 250 # safety cap on cost per run
+
+# section_hint must be one of:
+# market, ingredients, technology, formulation, news, company, regulation, pharma
+
+# --- Direct feeds (regulators, company filings) ------------------------------
+feeds:
+  - name: FDA press releases
+    url: https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml
+    region: US
+    section_hint: regulation
+  - name: Estee Lauder SEC filings
+    url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001001250&type=8-K&dateb=&owner=include&count=20&output=atom"
+    region: US
+    section_hint: company
+  - name: Coty SEC filings
+    url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001024305&type=8-K&dateb=&owner=include&count=20&output=atom"
+    region: US
+    section_hint: company
+  # Add more feeds here. Trade-press feeds change often, so test with --check.
+  # - name: Example trade site
+  #   url: https://example.com/rss
+  #   region: Global
+  #   section_hint: news
+
+# --- Federal Register (official US notices) ----------------------------------
+federal_register_terms:
+  - cosmetics
+  - sunscreen
+  - "cosmetic ingredient"
+
+# --- PubMed (science: stability, delivery, UV filters, anti-aging) -----------
+pubmed_queries:
+  - name: Cosmetic stability and emulsions
+    term: "(cosmetic[Title/Abstract] OR dermocosmetic[Title/Abstract]) AND (stability[Title/Abstract] OR emulsion[Title/Abstract] OR preservative[Title/Abstract])"
+    section_hint: technology
+  - name: Topical delivery and encapsulation
+    term: "(topical[Title/Abstract] OR skin[Title/Abstract]) AND (encapsulation[Title/Abstract] OR nanocarrier[Title/Abstract] OR liposome[Title/Abstract]) AND (cosmetic[Title/Abstract])"
+    section_hint: technology
+  - name: Sunscreen and UV filters
+    term: "(sunscreen[Title/Abstract] OR \"UV filter\"[Title/Abstract]) AND (photostability[Title/Abstract] OR safety[Title/Abstract] OR absorption[Title/Abstract])"
+    section_hint: ingredients
+  - name: Anti-aging actives
+    term: "(retinol[Title/Abstract] OR peptide[Title/Abstract] OR niacinamide[Title/Abstract] OR \"hyaluronic acid\"[Title/Abstract]) AND (topical[Title/Abstract]) AND (skin aging[Title/Abstract] OR wrinkle[Title/Abstract])"
+    section_hint: formulation
+  - name: Hair and scalp actives
+    term: "(hair[Title/Abstract] OR scalp[Title/Abstract]) AND (cosmetic[Title/Abstract]) AND (formulation[Title/Abstract] OR dye[Title/Abstract] OR keratin[Title/Abstract])"
+    section_hint: formulation
+  - name: Oral care actives
+    term: "(toothpaste[Title/Abstract] OR mouthwash[Title/Abstract] OR dentifrice[Title/Abstract]) AND (fluoride[Title/Abstract] OR hydroxyapatite[Title/Abstract] OR whitening[Title/Abstract])"
+    section_hint: formulation
+
+# --- Google News queries (regional editions; fast way to cover many sites) ---
+# region picks the Google News edition: India, US, UK, Canada, Singapore, else Global.
+google_news:
+  # Regulation by region
+  - {q: "cosmetics CDSCO OR BIS India regulation", region: India, section_hint: regulation}
+  - {q: "cosmetics Cosmetics Rules 2020 India amendment", region: India, section_hint: regulation}
+  - {q: "SCCS opinion cosmetic ingredient", region: UK, section_hint: ingredients}
+  - {q: "EU cosmetics regulation 1223/2009 amendment ban restriction", region: UK, section_hint: regulation}
+  - {q: "UK OPSS cosmetics regulation", region: UK, section_hint: regulation}
+  - {q: "MoCRA FDA cosmetics rule", region: US, section_hint: regulation}
+  - {q: "state cosmetics law PFAS OR formaldehyde OR talc", region: US, section_hint: regulation}
+  - {q: "Health Canada cosmetic ingredient hotlist OR allergen", region: Canada, section_hint: regulation}
+  - {q: "NMPA China cosmetics new ingredient OR regulation", region: Global, section_hint: regulation}
+  - {q: "Japan MHLW quasi-drug cosmetics regulation", region: Global, section_hint: regulation}
+  - {q: "Korea MFDS cosmetics regulation", region: Global, section_hint: regulation}
+  - {q: "ASEAN cosmetics BPOM OR HSA OR FDA Philippines regulation", region: Singapore, section_hint: regulation}
+  # Market and news
+  - {q: "global beauty market forecast Euromonitor OR McKinsey", region: Global, section_hint: market}
+  - {q: "India beauty personal care market growth", region: India, section_hint: market}
+  - {q: "China beauty market C-beauty OR Korea K-beauty OR J-beauty sales", region: Global, section_hint: market}
+  - {q: "beauty acquisition OR merger OR divestment", region: Global, section_hint: news}
+  - {q: "beauty brand launch fragrance OR skincare OR haircare", region: Global, section_hint: news}
+  # Companies
+  - {q: "L'Oreal OR Estee Lauder OR Coty OR Shiseido OR Unilever beauty results", region: Global, section_hint: company}
+  - {q: "Nykaa OR Hindustan Unilever OR Honasa OR Dabur results", region: India, section_hint: company}
+  - {q: "Amorepacific OR LG H&H OR Kao OR Kose OR Proya results", region: Global, section_hint: company}
+  - {q: "Croda OR Givaudan OR dsm-firmenich OR BASF OR Evonik personal care results", region: Global, section_hint: company}
+  # Technology, formulation, ingredients
+  - {q: "cosmetic ingredient launch biotech OR fermentation OR peptide", region: Global, section_hint: technology}
+  - {q: "beauty AI personalization OR skin diagnostics technology", region: Global, section_hint: technology}
+  - {q: "sunscreen UV filter approval OR new active", region: Global, section_hint: ingredients}
+  - {q: "retinol OR retinoid cosmetic regulation OR safety", region: Global, section_hint: ingredients}
+  - {q: "hair dye OR hair straightening formaldehyde regulation", region: Global, section_hint: ingredients}
+  - {q: "fragrance allergen labelling regulation", region: Global, section_hint: ingredients}
+  - {q: "toothpaste OR oral care ingredient regulation fluoride OR hydroxyapatite", region: Global, section_hint: ingredients}
+  - {q: "reformulation cosmetic ingredient supplier launch", region: Global, section_hint: formulation}
+  # Pharma-cosmetic crossover
+  - {q: "cosmetic or medicinal product classification borderline court OR regulator", region: Global, section_hint: pharma}
+  - {q: "cosmeceutical OR dermocosmetic drug ingredient regulator warning", region: Global, section_hint: pharma}
+  - {q: "minoxidil OR bimatoprost OR hydroquinone OR tretinoin cosmetic regulator", region: Global, section_hint: pharma}
+
+# --- Stocks (Yahoo Finance symbols via yfinance; check with --check) ---------
+stocks:
+  - group: Brand owners
+    rows:
+      - {symbol: OR.PA,       name: "L'Oréal",            ccy: EUR}
+      - {symbol: EL,          name: "Estée Lauder",       ccy: USD}
+      - {symbol: COTY,        name: "Coty",               ccy: USD}
+      - {symbol: ULVR.L,      name: "Unilever",           ccy: GBP}
+      - {symbol: PG,          name: "Procter & Gamble",   ccy: USD}
+      - {symbol: BEI.DE,      name: "Beiersdorf",         ccy: EUR}
+      - {symbol: KVUE,        name: "Kenvue",             ccy: USD}
+  - group: Asia
+    rows:
+      - {symbol: 4911.T,      name: "Shiseido",           ccy: JPY}
+      - {symbol: 4452.T,      name: "Kao",                ccy: JPY}
+      - {symbol: 4922.T,      name: "Kose",               ccy: JPY}
+      - {symbol: 090430.KS,   name: "Amorepacific",       ccy: KRW}
+      - {symbol: 051900.KS,   name: "LG H&H",             ccy: KRW}
+      - {symbol: 603605.SS,   name: "Proya",              ccy: CNY}
+  - group: India
+    rows:
+      - {symbol: NYKAA.NS,      name: "Nykaa (FSN)",        ccy: INR}
+      - {symbol: HINDUNILVR.NS, name: "Hindustan Unilever", ccy: INR}
+      - {symbol: HONASA.NS,     name: "Honasa (Mamaearth)", ccy: INR}
+      - {symbol: DABUR.NS,      name: "Dabur",              ccy: INR}
+  - group: Ingredient suppliers
+    rows:
+      - {symbol: CRDA.L,      name: "Croda",              ccy: GBP}
+      - {symbol: GIVN.SW,     name: "Givaudan",           ccy: CHF}
+      - {symbol: DSFIR.AS,    name: "dsm-firmenich",      ccy: EUR}
+      - {symbol: EVK.DE,      name: "Evonik",             ccy: EUR}
+      - {symbol: BAS.DE,      name: "BASF",               ccy: EUR}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cosmetics Intelligence Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="shell">
+  <nav class="rail" aria-label="Sections">
+    <p class="brand">Cosmetics intelligence briefing</p>
+    <p class="asof" id="asof">Loading…</p>
+    <ol id="nav"></ol>
+  </nav>
+
+  <main>
+    <header class="top">
+      <h1>Cosmetics and pharma briefing</h1>
+      <p>Market, ingredients, technology, formulation, deals, company results, stocks and regulation across India, EU and UK, US and Canada, and China, Japan, Korea and ASEAN. Refreshed automatically; every item links to its source.</p>
+      <div id="banner" class="note" hidden></div>
+    </header>
+
+    <section id="digest-box" hidden>
+      <h2>What changed</h2>
+      <ul id="digest" class="digest"></ul>
+    </section>
+
+    <div class="filterbar" role="region" aria-label="Filters">
+      <div class="row">
+        <span class="lbl">Region</span>
+        <div id="f-region" class="chips"></div>
+      </div>
+      <div class="row">
+        <span class="lbl">Category</span>
+        <div id="f-cat" class="chips"></div>
+      </div>
+      <div class="row tools">
+        <label class="check"><input type="checkbox" id="f-reg"> Regulatory only</label>
+        <label class="check"><input type="checkbox" id="f-hi"> Detailed items only</label>
+        <label class="sel">Period
+          <select id="f-days">
+            <option value="0">All</option>
+            <option value="7">7 days</option>
+            <option value="30">30 days</option>
+            <option value="90">90 days</option>
+          </select>
+        </label>
+        <input type="search" id="f-q" placeholder="Search ingredient, company, rule" aria-label="Search">
+        <button type="button" id="f-clear" class="linkbtn">Clear filters</button>
+      </div>
+    </div>
+
+    <div id="sections"></div>
+
+    <footer>
+      <p id="foot-note"></p>
+      <p>Summaries are written by an AI model from each source's headline and snippet, and may contain errors. Items marked "Headline only" had no further detail. Confirm any regulation or figure against the linked primary source before acting on it. Nothing here is legal or investment advice.</p>
+    </footer>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

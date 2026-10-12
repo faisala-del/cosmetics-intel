@@ -1,0 +1,473 @@
+{
+ "mode": "seed",
+ "generated_at": "2026-10-12T00:00:00+00:00",
+ "lookback_days": 14,
+ "digest": [
+  {
+   "text": "EU regulators are moving fast: Omnibus VIII applies from 1 May 2026 and a draft Omnibus IX would add benzophenone-1, benzophenone-2 and prostaglandin-like substances to the ban list.",
+   "ids": [
+    "seed01",
+    "seed02"
+   ]
+  },
+  {
+   "text": "The US approved bemotrizinol as a sunscreen active, its first new one in over two decades, effective 9 Aug 2026.",
+   "ids": [
+    "seed04"
+   ]
+  },
+  {
+   "text": "India's CDSCO restated that injectables are not cosmetics and that cosmetics cannot make treatment claims.",
+   "ids": [
+    "seed07"
+   ]
+  },
+  {
+   "text": "Estée Lauder and L'Oréal reported growth, while Coty described FY27 as a transition year after selling the Gucci licence.",
+   "ids": [
+    "seed14",
+    "seed15",
+    "seed16"
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "seed01",
+   "section": "regulation",
+   "headline": "EU Omnibus Act VIII adds 18 CMR substances to restricted or prohibited lists",
+   "summary": "Regulation (EU) 2026/78 was published 12 Jan 2026 and applies from 1 May 2026, moving newly classified CMR substances into Annex II.",
+   "url": "https://www.hpra.ie/regulation/cosmetics/cosmetics-regulation/updates-to-restricted-and-prohibited-ingredients-in-cosmetic-products/omnibus-act-viii---new-substances-added-to-the-list-of-ingredients-restricted-or-prohibited-in-cosmetics-from-may-2026",
+   "source": "HPRA (Ireland)",
+   "published": "2026-01-12T00:00:00+00:00",
+   "regions": [
+    "EU"
+   ],
+   "categories": [],
+   "regulatory": true,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed02",
+   "section": "ingredients",
+   "headline": "EU draft Omnibus IX would ban benzophenone-1, benzophenone-2 and prostaglandin-like substances",
+   "summary": "Notified to the WTO on 8 Jul 2026. CMR-based bans start 1 Feb 2027; SCCS-based bans follow after 12 to 24 month transition periods.",
+   "url": "https://client.cosmeticobs.com/en/articles/news-59/the-european-commission-notifies-an-omnibus-cmrs-and-other-ingredients-9373?page=102",
+   "source": "Cosmetics Observatory",
+   "published": "2026-07-08T00:00:00+00:00",
+   "regions": [
+    "EU"
+   ],
+   "categories": [
+    "sun care",
+    "hair care",
+    "skin care"
+   ],
+   "regulatory": true,
+   "borderline": true,
+   "ingredients": [
+    "Benzophenone-1",
+    "Benzophenone-2",
+    "Basic Brown 16",
+    "Basic Blue 99"
+   ],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed03",
+   "section": "pharma",
+   "headline": "SCCS finds no prostaglandin analogue safe for eyelash and eyebrow growth cosmetics",
+   "summary": "The 2025 opinion covered isopropyl cloprostenate, norbimatoprost and a third analogue; earlier work flagged eye-area effects at very low doses.",
+   "url": "https://www.cirs-group.com/en/cosmetics/sccs-issued-scientific-opinion-on-prostaglandin-analogues",
+   "source": "CIRS",
+   "published": "2025-06-06T00:00:00+00:00",
+   "regions": [
+    "EU"
+   ],
+   "categories": [
+    "fragrance & colour"
+   ],
+   "regulatory": true,
+   "borderline": true,
+   "ingredients": [
+    "Isopropyl cloprostenate",
+    "Bimatoprost analogues"
+   ],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed04",
+   "section": "regulation",
+   "headline": "FDA adds bemotrizinol to the OTC sunscreen monograph",
+   "summary": "Final order effective 9 Aug 2026 allows up to 6% for ages 6 months and older. DSM holds 18 months of exclusivity.",
+   "url": "https://www.venable.com/insights/publications/2026/06/fda-clears-the-way-for-bemotrizinol-first-new-otc",
+   "source": "Venable",
+   "published": "2026-06-10T00:00:00+00:00",
+   "regions": [
+    "US"
+   ],
+   "categories": [
+    "sun care"
+   ],
+   "regulatory": true,
+   "borderline": true,
+   "ingredients": [
+    "Bemotrizinol"
+   ],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed05",
+   "section": "regulation",
+   "headline": "FDA targets Nov 2026 for formaldehyde and fragrance-allergen proposed rules",
+   "summary": "The Unified Agenda released 3 Jul 2026 also dropped the talc testing and GMP rules. Agenda dates are targets and often slip.",
+   "url": "https://cosmetic.chemlinked.com/news/cosmetic-news/us-fda-sets-november-2026-timeline-for-formaldehyde-ban-and-fragrance-allergen-rule",
+   "source": "ChemLinked",
+   "published": "2026-07-03T00:00:00+00:00",
+   "regions": [
+    "US"
+   ],
+   "categories": [
+    "hair care",
+    "fragrance & colour"
+   ],
+   "regulatory": true,
+   "borderline": false,
+   "ingredients": [
+    "Formaldehyde"
+   ],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed06",
+   "section": "regulation",
+   "headline": "Canada phases in fragrance allergen disclosure",
+   "summary": "From 12 Apr 2026, 24 allergens must be declared; from 1 Aug 2026 newly marketed products declare 81, above 0.01% rinse-off and 0.001% leave-on.",
+   "url": "https://en.reach24h.com/news/insights/cosmetic/2026-north-american-cosmetic-regulatory-outlook",
+   "source": "REACH24H",
+   "published": "2026-04-12T00:00:00+00:00",
+   "regions": [
+    "Canada"
+   ],
+   "categories": [
+    "fragrance & colour"
+   ],
+   "regulatory": true,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed07",
+   "section": "regulation",
+   "headline": "India's CDSCO: injectables are not cosmetics and cosmetics cannot be used for treatment",
+   "summary": "Public notice of 18 May 2026 (File COS-1211/2026) under the Drugs and Cosmetics Act 1940 and Cosmetics Rules 2020; BIS publishes restricted ingredient lists.",
+   "url": "https://globalcosing.chemradar.com/news/detail/fmpudgyw8ao0",
+   "source": "ChemRadar",
+   "published": "2026-05-18T00:00:00+00:00",
+   "regions": [
+    "India"
+   ],
+   "categories": [
+    "skin care"
+   ],
+   "regulatory": true,
+   "borderline": true,
+   "ingredients": [],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed08",
+   "section": "regulation",
+   "headline": "CDSCO reminds hair-colour makers to meet IS 4707 and IS 8481",
+   "summary": "Circular of 10 Jun 2026 stresses compliance with the Cosmetics Rules 2020 and the named BIS standards.",
+   "url": "https://cosmetic.chemlinked.com/news/cosmetic-news/monthly-recap-global-cosmetic-regulatory-updates-june-2026",
+   "source": "ChemLinked",
+   "published": "2026-06-10T00:00:00+00:00",
+   "regions": [
+    "India"
+   ],
+   "categories": [
+    "hair care"
+   ],
+   "regulatory": true,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed09",
+   "section": "regulation",
+   "headline": "China consults on bringing cosmetic finished products into new-chemical registration",
+   "summary": "Draft revision of MEE Order 12 opened 11 Jun 2026; separately, over 100 new cosmetic ingredients were filed in China in 2026.",
+   "url": "https://www.cirs-group.com/en/cirs-regulatory-newsletter-june-2026-regulatory-update-ii",
+   "source": "CIRS",
+   "published": "2026-06-11T00:00:00+00:00",
+   "regions": [
+    "China"
+   ],
+   "categories": [],
+   "regulatory": true,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed10",
+   "section": "regulation",
+   "headline": "Indonesia's BPOM drafts broader pharmacovigilance rules for cosmetics",
+   "summary": "Part of the June 2026 regional recap; adverse-event monitoring is spreading from drugs to cosmetics.",
+   "url": "https://cosmetic.chemlinked.com/news/cosmetic-news/monthly-recap-global-cosmetic-regulatory-updates-june-2026",
+   "source": "ChemLinked",
+   "published": "2026-06-15T00:00:00+00:00",
+   "regions": [
+    "ASEAN"
+   ],
+   "categories": [],
+   "regulatory": true,
+   "borderline": true,
+   "ingredients": [],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed11",
+   "section": "technology",
+   "headline": "Biotech and precision fermentation lead in-cosmetics Global 2026",
+   "summary": "The Innovation Zone listed 233 ingredient launches; experts highlighted fermentation, encapsulation and supply-chain dependence.",
+   "url": "https://www.globalcosmeticsnews.com/reel-review-in-cosmetics-global-2026-lexfeel-shine-matrixyl-neolide-and-the-rise-of-biotechnology/",
+   "source": "Global Cosmetics News",
+   "published": "2026-04-30T00:00:00+00:00",
+   "regions": [
+    "Global"
+   ],
+   "categories": [
+    "skin care",
+    "hair care"
+   ],
+   "regulatory": false,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed12",
+   "section": "formulation",
+   "headline": "Lesaffre launches Innosya with three fermentation-derived pro-aging actives",
+   "summary": "Skinosya Chondro, Salidroside and SAG target skin stress, elasticity and menopausal ageing; clinically tested and vegan.",
+   "url": "https://www.personalcareinsights.com/news/lesaffre-innosya-fermented-cosmetics.html",
+   "source": "Personal Care Insights",
+   "published": "2026-04-28T00:00:00+00:00",
+   "regions": [
+    "Global"
+   ],
+   "categories": [
+    "skin care"
+   ],
+   "regulatory": false,
+   "borderline": false,
+   "ingredients": [
+    "Skinosya Chondro",
+    "Skinosya Salidroside",
+    "Skinosya SAG"
+   ],
+   "companies": [
+    "Lesaffre"
+   ],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed13",
+   "section": "formulation",
+   "headline": "Croda introduces Matrixyl Neolide, an encapsulated peptide",
+   "summary": "Designed for faster peptide release through improved encapsulation, one of Croda Beauty Active's main 2026 launches.",
+   "url": "https://www.globalcosmeticsnews.com/reel-review-in-cosmetics-global-2026-lexfeel-shine-matrixyl-neolide-and-the-rise-of-biotechnology/",
+   "source": "Global Cosmetics News",
+   "published": "2026-04-30T00:00:00+00:00",
+   "regions": [
+    "Global"
+   ],
+   "categories": [
+    "skin care"
+   ],
+   "regulatory": false,
+   "borderline": false,
+   "ingredients": [
+    "Matrixyl Neolide"
+   ],
+   "companies": [
+    "Croda"
+   ],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed14",
+   "section": "company",
+   "headline": "L'Oréal H1 2026: sales €23.77bn, record 21.3% operating margin",
+   "summary": "Like-for-like growth of 6.8% (6.5% adjusted); Professional Products and Dermatological Beauty grew fastest; SAPMENA-SSA grew 13.8%.",
+   "url": "https://www.loreal-finance.com/eng/press-release/2026-half-year-results",
+   "source": "L'Oréal",
+   "published": "2026-07-29T00:00:00+00:00",
+   "regions": [
+    "Global"
+   ],
+   "categories": [],
+   "regulatory": false,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [
+    "L'Oréal"
+   ],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed15",
+   "section": "company",
+   "headline": "Estée Lauder FY2026: return to growth, FY27 margin outlook raised",
+   "summary": "Full-year organic sales +3%, fourth quarter +5%; FY27 adjusted operating margin guided to 12.7% to 13.5%.",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001001250/000100125026000038/elq4fy2026exhibit991.htm",
+   "source": "SEC 8-K",
+   "published": "2026-08-19T00:00:00+00:00",
+   "regions": [
+    "US",
+    "China"
+   ],
+   "categories": [
+    "fragrance & colour",
+    "skin care"
+   ],
+   "regulatory": false,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [
+    "Estée Lauder"
+   ],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed16",
+   "section": "company",
+   "headline": "Coty FY2026: transition year, consumer beauty review due by end of 2026",
+   "summary": "Q4 revenue $1.27bn with like-for-like sales down 1%; Gucci exit and leadership changes under the Coty.Curated plan.",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001024305/000102430526000045/exhibit991-earningsrelease.htm",
+   "source": "SEC 8-K",
+   "published": "2026-08-19T00:00:00+00:00",
+   "regions": [
+    "Global"
+   ],
+   "categories": [
+    "fragrance & colour"
+   ],
+   "regulatory": false,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [
+    "Coty"
+   ],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed17",
+   "section": "news",
+   "headline": "Coty sells the Gucci Beauty licence back to Kering for about $400 million",
+   "summary": "$250m received at signing and $150m due by 30 Sep 2027; Coty keeps operating Gucci Beauty through at least 30 Jun 2027.",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001024305/000102430526000038/exhibit991pressreleasedate.htm",
+   "source": "SEC 8-K",
+   "published": "2026-07-07T00:00:00+00:00",
+   "regions": [
+    "Global"
+   ],
+   "categories": [
+    "fragrance & colour"
+   ],
+   "regulatory": false,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [
+    "Coty",
+    "Kering"
+   ],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed18",
+   "section": "news",
+   "headline": "L'Oréal closes Color Wow, signs Innovist and takes on Kering beauty brands",
+   "summary": "Color Wow completed 30 Jun 2026; majority stake in India's Innovist agreed; Gucci licence confirmed.",
+   "url": "https://www.retail-insight-network.com/news/loreal-h1-sales-up-6-8/",
+   "source": "Retail Insight Network",
+   "published": "2026-07-30T00:00:00+00:00",
+   "regions": [
+    "Global",
+    "India"
+   ],
+   "categories": [
+    "hair care",
+    "skin care"
+   ],
+   "regulatory": false,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [
+    "L'Oréal",
+    "Kering"
+   ],
+   "confidence": "high",
+   "origin": "seed"
+  },
+  {
+   "id": "seed19",
+   "section": "market",
+   "headline": "Global beauty and personal care to reach $826bn by 2029",
+   "summary": "Euromonitor via Cosmoprof: $635.2bn in 2025, $678.3bn in 2026, about 7% annual growth; fragrance +9.2% and sun care +7.8% in 2026.",
+   "url": "https://lp.cosmoprof.com/hubfs/04_Cosmoprof%20Worldwide%20Bologna%202026_GLOBAL%20SCENARIO_ENG.pdf",
+   "source": "Cosmoprof / Euromonitor",
+   "published": "2026-03-26T00:00:00+00:00",
+   "regions": [
+    "Global"
+   ],
+   "categories": [
+    "fragrance & colour",
+    "sun care",
+    "skin care",
+    "hair care"
+   ],
+   "regulatory": false,
+   "borderline": false,
+   "ingredients": [],
+   "companies": [],
+   "confidence": "high",
+   "origin": "seed"
+  }
+ ],
+ "source_report": {}
+}
