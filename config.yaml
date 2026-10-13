@@ -6,7 +6,7 @@
 
 # SEC EDGAR and some sites reject requests without a contact address.
 # Replace with your own email.
-user_agent: "cosmetics-intel/1.0 (contact: your-email@example.com)"
+user_agent: "cosmetics-intel/1.0 (contact: faisal.a@doveriye.com)"
 
 claude:
   # Cheap, fast model that tags and summarises each item.
