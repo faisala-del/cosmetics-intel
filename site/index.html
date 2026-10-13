@@ -3,144 +3,112 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Formulary: daily intelligence for cosmetics</title>
-<script>document.documentElement.classList.add('js')</script>
+<title>Sample report, October 2026 | Formulary</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
  --bg:#F7F1FF;--ink:#240F55;--mute:#4B3A78;--card:#FFFFFF;--rule:#E4DAFF;--soft:#EFE6FF;--violet:#3B1FA3;--dark:#240F55;
- --grad:linear-gradient(135deg,#FF3D8B 0%,#FF7A3D 58%,#FFC23D 100%);
- --disp:'Bricolage Grotesque','Trebuchet MS',system-ui,sans-serif;--sans:'DM Sans','Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;
- --bounce:cubic-bezier(.3,1.6,.5,1)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#140A2B;--ink:#F4EEFF;--mute:#BBA9E6;--card:#21124A;--rule:#3A2A6E;--soft:#2A1A5C;--violet:#C9B8FF;--dark:#2B1668}}
-:root[data-theme="dark"]{--bg:#140A2B;--ink:#F4EEFF;--mute:#BBA9E6;--card:#21124A;--rule:#3A2A6E;--soft:#2A1A5C;--violet:#C9B8FF;--dark:#2B1668}
+ --grad:linear-gradient(135deg,#FF3D8B 0%,#FF7A3D 58%,#FFC23D 100%);--up:#14573A;--down:#8A0F46;
+ --disp:'Bricolage Grotesque','Trebuchet MS',system-ui,sans-serif;--sans:'DM Sans','Segoe UI',system-ui,-apple-system,Roboto,Arial,sans-serif;--bounce:cubic-bezier(.3,1.6,.5,1)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#140A2B;--ink:#F4EEFF;--mute:#BBA9E6;--card:#21124A;--rule:#3A2A6E;--soft:#2A1A5C;--violet:#C9B8FF;--dark:#2B1668;--up:#7BE0A8;--down:#FF9BC0}}
+:root[data-theme="dark"]{--bg:#140A2B;--ink:#F4EEFF;--mute:#BBA9E6;--card:#21124A;--rule:#3A2A6E;--soft:#2A1A5C;--violet:#C9B8FF;--dark:#2B1668;--up:#7BE0A8;--down:#FF9BC0}
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 84px)}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.6;overflow-x:hidden}
-a{color:inherit}
-a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #FF3D8B;outline-offset:3px;border-radius:8px}
-.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
-.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px)}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:72px}
-.logo{display:flex;align-items:center;gap:10px;font:800 24px var(--disp);text-decoration:none;letter-spacing:-.01em}
-.logo i{width:30px;height:30px;border-radius:50%;background:var(--dark);display:inline-block;position:relative}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;overflow-x:hidden}
+a{color:var(--violet);text-underline-offset:2px}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #FF3D8B;outline-offset:3px;border-radius:8px}
+.topbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px)}
+.topbar .in{max-width:1240px;margin:0 auto;padding:0 24px;height:68px;display:flex;align-items:center;justify-content:space-between;gap:14px}
+.logo{display:flex;align-items:center;gap:10px;font:800 23px var(--disp);text-decoration:none;color:var(--ink)}
+.logo i{width:28px;height:28px;border-radius:50%;background:var(--dark);display:inline-block;position:relative}
 .logo i::after{content:"";position:absolute;inset:8px;border-radius:50%;background:#FFC23D}
-.nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;font-size:15px;font-weight:500}
-.nav ul a{text-decoration:none;color:var(--mute)}.nav ul a:hover{color:var(--ink)}
-.btn{display:inline-block;border:0;border-radius:99px;padding:14px 28px;font:700 16px var(--sans);text-decoration:none;cursor:pointer;transition:transform .3s var(--bounce)}
+.topbar .links{display:flex;gap:12px;align-items:center}
+.topbar .back{font-size:14.5px;font-weight:500;color:var(--mute);text-decoration:none}
+.topbar .back:hover{color:var(--ink)}
+.btn{display:inline-block;border-radius:99px;padding:10px 22px;font:700 14px var(--sans);text-decoration:none;background:#240F55;color:#fff;transition:transform .3s var(--bounce)}
 .btn:hover{transform:translateY(-3px) rotate(-1.5deg)}
-.btn.dark{background:#240F55;color:#fff}
-.btn.white{background:#fff;color:#240F55}
 .btn.grad{background:var(--grad);color:#240F55}
-.btn.sm{padding:10px 22px;font-size:14px}
-.pill{display:inline-block;margin:0 0 18px;padding:6px 16px;border-radius:99px;background:var(--soft);color:var(--violet);font:700 13px var(--sans)}
-h1,h2,h3{font-family:var(--disp);margin:0}
-h2{font-weight:800;font-size:clamp(32px,4.6vw,54px);line-height:1.03;letter-spacing:-.02em;margin-bottom:14px;max-width:18ch}
-h2 em{font-style:normal;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
-.lede{color:var(--mute);font-size:18px;max-width:52ch;margin:0}
-section{padding:90px 0 0}
-.hero{padding-top:14px}
-.panel{position:relative;overflow:hidden;border-radius:44px;background:var(--grad);padding:60px 52px 56px;display:grid;grid-template-columns:1.1fr .9fr;gap:20px;align-items:center;color:#240F55}
-.panel h1{font-weight:800;font-size:clamp(40px,6.4vw,76px);line-height:.98;letter-spacing:-.025em;max-width:12ch}
-.panel .hsub{font-size:19px;max-width:44ch;margin:20px 0 0}
-.panel .pill{background:rgba(255,255,255,.6);color:#240F55}
-.btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
-.stats{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
-.stats div{background:rgba(255,255,255,.58);border-radius:22px;padding:12px 22px;min-width:110px}
-.stats b{font:800 34px/1 var(--disp);display:block}
-.stats span{font-size:14px}
-.art{position:relative;min-height:400px}
-.mol{position:absolute;pointer-events:none}
-.fl{animation:float 9s ease-in-out infinite}.fl2{animation:float 12s ease-in-out -4s infinite}.fl3{animation:float 15s ease-in-out -8s infinite}
-@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-18px) rotate(7deg)}}
-.mail{position:absolute;left:4%;bottom:26px;width:min(320px,86%);background:#fff;color:#240F55;border-radius:26px;padding:18px 20px;transform:rotate(-4deg);animation:bob 7s ease-in-out infinite}
-@keyframes bob{0%,100%{transform:rotate(-4deg) translateY(0)}50%{transform:rotate(-2.5deg) translateY(-10px)}}
-.mail small{font-size:11.5px;font-weight:700;letter-spacing:.06em;color:#4B3A78}
-.mail p{margin:6px 0 10px;font:700 19px/1.15 var(--disp)}
-.mail .row{display:flex;gap:6px;flex-wrap:wrap}
-.sticker{position:absolute;right:2%;top:14px;background:#240F55;color:#fff;border-radius:99px;padding:10px 20px;font:700 14px var(--sans);transform:rotate(7deg)}
-.chip{display:inline-block;border-radius:99px;padding:3px 12px;font-size:12px;font-weight:700;white-space:nowrap}
-.pk{background:#FFD9E8;color:#8A0F46}.lv{background:#E4DAFF;color:#3B1FA3}.am{background:#FFE9B8;color:#6B4200}.mn{background:#D3F0E0;color:#14573A}
-.who{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
-.who span{border-radius:99px;padding:9px 20px;font-weight:700;font-size:15px;color:#240F55;transition:transform .3s var(--bounce)}
-.who span:hover{transform:translateY(-3px) rotate(-1.5deg)}
-.who span:nth-child(1){background:#FFD9E8}.who span:nth-child(2){background:#E4DAFF}.who span:nth-child(3){background:#FFE9B8}.who span:nth-child(4){background:#D3F0E0}
-.ticker{margin-top:44px;background:#240F55;color:#fff;overflow:hidden;white-space:nowrap;font-weight:500;font-size:15px}
-:root:is([data-theme="dark"]) .ticker{background:#0D0620}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .ticker{background:#0D0620}}
-.ticker .track{display:inline-flex;gap:38px;padding:15px 0;animation:tick 55s linear infinite}
-.ticker:hover .track{animation-play-state:paused}
-@keyframes tick{to{transform:translateX(-50%)}}
-.ticker em{font-style:normal;background:#FFC23D;color:#240F55;border-radius:99px;padding:2px 11px;margin-right:9px;font-size:12px;font-weight:700}
-.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:34px}
-.item{position:relative;background:var(--card);border-radius:28px;padding:26px;transition:transform .35s var(--bounce)}
-.item:hover{transform:translateY(-7px) rotate(-.8deg)}
-.item .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
-.item h3{font-weight:700;font-size:21px;line-height:1.17;margin-bottom:10px}
-.item p{margin:0 0 12px;font-size:15px;color:var(--mute)}
-.item .src{font-size:13px;font-weight:700;color:var(--violet)}
-.lock{overflow:hidden}
-.lock .sk{height:12px;border-radius:7px;background:var(--rule);margin:0 0 10px}
-.lock .sk.s{width:62%}
-.lock .shade{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;background:color-mix(in srgb,var(--card) 62%,transparent);backdrop-filter:blur(3px);font-size:14px;font-weight:700;text-align:center;padding:14px}
-.lock svg{width:24px;height:24px;stroke:#FF3D8B;fill:none;stroke-width:2}
-.note{font-size:14px;color:var(--mute);margin:18px 0 0;max-width:70ch}
-.feat{border-radius:32px;padding:28px;color:#240F55;transition:transform .35s var(--bounce)}
-.feat:hover{transform:translateY(-7px) rotate(.9deg)}
-.feat .ic{width:60px;height:60px;border-radius:50%;background:rgba(255,255,255,.7);display:flex;align-items:center;justify-content:center}
-.feat svg{width:34px;height:34px;stroke:#240F55;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.feat h3{font-weight:800;font-size:24px;line-height:1.1;margin:18px 0 8px}
-.feat p{margin:0;font-size:15px}
-.f1{background:#FFD9E8}.f2{background:#E4DAFF}.f3{background:#FFE9B8}.f4{background:#D3F0E0}
-.split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
-.email{background:var(--card);border-radius:30px;overflow:hidden;transform:rotate(1.2deg);transition:transform .4s var(--bounce)}
-.email:hover{transform:rotate(0)}
-.email .hd{display:flex;gap:7px;align-items:center;padding:14px 18px;background:var(--grad)}
-.email .hd i{width:11px;height:11px;border-radius:50%;background:rgba(255,255,255,.85)}
-.email .hd span{margin-left:10px;font-size:12.5px;font-weight:700;color:#240F55}
-.email .bd{padding:22px 24px}
-.email h4{font:800 25px/1.1 var(--disp);margin:0 0 10px}
-.email ul{margin:0 0 14px;padding-left:18px;font-size:14.5px;color:var(--mute)}
-.email li{margin-bottom:6px}
-.email .sec{font:700 12px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--violet);margin:16px 0 8px}
-.email .ln{font-size:14.5px;margin:0 0 8px}
-.checks{list-style:none;margin:24px 0 0;padding:0;display:grid;gap:13px}
-.checks li{display:flex;gap:12px;align-items:flex-start;font-size:16.5px;font-weight:500}
-.checks b{flex:none;width:28px;height:28px;border-radius:50%;background:var(--grad);display:flex;align-items:center;justify-content:center}
-.checks b svg{width:15px;height:15px;stroke:#240F55;fill:none;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
-.bill{display:inline-flex;gap:6px;padding:6px;border-radius:99px;background:var(--card);margin-top:12px}
-.bill button{font:700 15px var(--sans);border:0;background:transparent;color:var(--ink);padding:10px 22px;border-radius:99px;cursor:pointer;transition:background .25s}
-.bill button[aria-pressed="true"]{background:#240F55;color:#fff}
-.bill .save{background:#FFC23D;color:#240F55;border-radius:99px;padding:2px 10px;font-size:12px;margin-left:6px}
-.plans{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:34px;max-width:880px}
-.plan{position:relative;background:var(--card);border-radius:36px;padding:34px}
-.plan.pro{border:3px solid #240F55}
-:root:is([data-theme="dark"]) .plan.pro{border-color:#FFC23D}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .plan.pro{border-color:#FFC23D}}
-.plan .badge{position:absolute;top:-16px;right:26px;background:var(--grad);color:#240F55;border-radius:99px;padding:6px 16px;font:800 13px var(--sans);transform:rotate(4deg)}
-.plan h3{font-weight:800;font-size:28px}
-.plan .price{font:800 54px/1.1 var(--disp);margin:10px 0 2px;letter-spacing:-.02em}
-.plan .price small{font:500 16px var(--sans);color:var(--mute);letter-spacing:0}
-.pnote{margin:0;font-size:14px;color:var(--mute)}
-.plan ul{list-style:none;margin:20px 0 26px;padding:0;display:grid;gap:10px;font-size:15.5px}
-.plan li::before{content:"\2713";color:#FF3D8B;font-weight:800;margin-right:10px}
-.plan .btn.ghost{background:transparent;border:2px solid var(--ink);color:var(--ink)}
-.sub{margin-top:34px;background:var(--dark);border-radius:44px;padding:60px 30px;text-align:center;color:#fff;position:relative;overflow:hidden}
-.sub h2{max-width:15ch;margin:0 auto 12px}
-.sub p{margin:0 auto 26px;max-width:48ch;font-size:17px;position:relative;z-index:2}
-.sub h2,.form,.msg{position:relative;z-index:2}
-.sub a{color:#FFC23D}
-.form{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
-.form input{font:400 16px var(--sans);padding:15px 22px;border-radius:99px;border:2px solid transparent;min-width:min(330px,90%);background:#fff;color:#240F55}
-.form button{background:var(--grad);color:#240F55}
-.msg{min-height:26px;margin-top:14px;font-size:14.5px;font-weight:700;color:#FFD9E8}
-footer{padding:56px 0 50px;font-size:13.5px;color:var(--mute);max-width:78ch}
-.js .rv{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease;transition-delay:var(--d,0s)}
-.js .rv.in{opacity:1;transform:none}
-@media (max-width:860px){.panel{grid-template-columns:1fr;padding:40px 26px}.split{grid-template-columns:1fr}.nav ul{display:none}.art{min-height:340px}section{padding-top:68px}.email{transform:none}}
-@media (prefers-reduced-motion:reduce){.fl,.fl2,.fl3,.mail,.ticker .track{animation:none!important}.js .rv{opacity:1;transform:none;transition:none}.btn,.item,.feat,.who span,.email{transition:none}}
+.shell{display:grid;grid-template-columns:240px minmax(0,1fr);max-width:1240px;margin:0 auto}
+nav.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 68px);align-self:start;height:calc(100vh - 68px);padding:22px 18px;overflow:auto}
+nav.rail .brand{font:800 18px/1.15 var(--disp);margin:0 0 4px}
+nav.rail .asof{font-size:13px;color:var(--mute);margin:0 0 16px}
+nav.rail ol{list-style:none;margin:0;padding:0;display:grid;gap:3px}
+nav.rail a{display:block;padding:8px 14px;border-radius:99px;color:var(--ink);text-decoration:none;font-size:14.5px;font-weight:500}
+nav.rail a:hover{background:var(--soft)}
+nav.rail a[aria-current="true"]{background:var(--dark);color:#fff;font-weight:700}
+main{padding:14px 28px 80px;min-width:0}
+header.top{position:relative;overflow:hidden;border-radius:40px;background:var(--grad);padding:46px 44px 40px;color:#240F55}
+header.top .mol{position:absolute;right:4%;top:20px;width:170px;color:#240F55;opacity:.9;animation:float 10s ease-in-out infinite;pointer-events:none}
+header.top .mol2{right:24%;top:auto;bottom:16px;width:80px;color:#fff;animation-delay:-5s}
+@keyframes float{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-14px) rotate(7deg)}}
+.pill{display:inline-block;margin:0 0 14px;padding:6px 16px;border-radius:99px;background:rgba(255,255,255,.62);font:700 13px var(--sans)}
+header.top h1{font:800 clamp(34px,5.2vw,58px)/1 var(--disp);letter-spacing:-.025em;margin:0 0 14px;max-width:14ch;position:relative}
+header.top p{margin:0;max-width:62ch;font-size:17px;position:relative}
+.legend{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:20px;font-size:14px;position:relative}
+section{padding:54px 0 6px}
+section>h2{font:800 clamp(28px,3.6vw,40px)/1.05 var(--disp);letter-spacing:-.02em;margin:0 0 8px}
+section>.lede{margin:0 0 22px;color:var(--mute);max-width:70ch}
+h3{font:700 18px var(--disp);margin:28px 0 10px}
+.chip{display:inline-block;padding:3px 12px;border-radius:99px;font-size:12px;font-weight:700;background:#E4DAFF;color:#3B1FA3;white-space:nowrap}
+.chip.flag{background:#FFD9E8;color:#8A0F46}
+.chip.warn{background:#FFE9B8;color:#6B4200}
+.item{background:var(--card);border-radius:28px;padding:22px 26px;margin:0 0 14px;display:grid;grid-template-columns:130px minmax(0,1fr);gap:6px 24px;transition:transform .35s var(--bounce)}
+.item:hover{transform:translateY(-4px) rotate(-.4deg)}
+.item .meta{font-size:13px;color:var(--mute);display:flex;flex-direction:column;gap:7px;align-items:flex-start}
+.item h4{margin:0 0 6px;font:700 19px/1.25 var(--disp)}
+.item p{margin:0 0 8px;max-width:76ch}
+.src{font-size:13px;color:var(--mute)}
+.src a{margin-right:12px;font-weight:700}
+.bars{display:grid;gap:12px;margin:10px 0 8px;max-width:660px;background:var(--card);border-radius:28px;padding:22px 26px}
+.bar{display:grid;grid-template-columns:76px 1fr 70px;gap:12px;align-items:center;font-size:14.5px}
+.bar .track{height:24px;background:var(--soft);border-radius:99px;overflow:hidden}
+.bar .fill{height:100%;background:var(--grad);border-radius:99px;transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}}
+.bar .v{font-variant-numeric:tabular-nums;font-weight:700;text-align:right}
+.tablewrap{overflow-x:auto;max-width:100%;border-radius:28px;background:var(--card);padding:6px}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:14.5px}
+th,td{text-align:left;vertical-align:top;padding:13px 16px;border-bottom:1px solid var(--rule)}
+th{font-weight:700;font-size:13px;color:var(--violet);background:var(--soft)}
+th:first-child{border-radius:16px 0 0 16px}th:last-child{border-radius:0 16px 16px 0}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 16px}
+.filters button{font:700 14px var(--sans);padding:8px 18px;border-radius:99px;border:0;background:var(--card);color:var(--ink);cursor:pointer;transition:transform .3s var(--bounce)}
+.filters button:hover{transform:translateY(-2px)}
+.filters button[aria-pressed="true"]{background:var(--dark);color:#fff}
+.note{background:#FFE9B8;color:#3D2A00;border-radius:24px;padding:16px 20px;margin:14px 0;font-size:14.5px;max-width:78ch}
+details.case{background:var(--card);border-radius:28px;margin:0 0 14px}
+details.case summary{cursor:pointer;padding:18px 24px;font:700 17px var(--disp);list-style:none;display:flex;gap:10px;align-items:center;justify-content:space-between}
+details.case summary::-webkit-details-marker{display:none}
+details.case summary::after{content:"+";width:30px;height:30px;border-radius:50%;background:var(--grad);color:#240F55;display:flex;align-items:center;justify-content:center;font:700 20px var(--sans);flex:none}
+details.case[open] summary::after{content:"\2013"}
+.case .body{padding:0 24px 22px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.case .col{background:var(--soft);border-radius:20px;padding:16px 18px}
+.case .col h5{margin:0 0 6px;font:700 14px var(--sans);color:var(--violet)}
+.case .col.reg h5{color:var(--down)}
+.case .col p{margin:0 0 8px;font-size:14.5px}
+.case .foot{grid-column:1/-1;font-size:13px;color:var(--mute)}
+.case .foot a{margin-right:12px;font-weight:700}
+.bg{font-style:italic;color:var(--mute)}
+.cta{margin:40px 0 0;background:var(--dark);border-radius:36px;padding:38px 30px;text-align:center;color:#fff}
+.cta h2{font:800 clamp(26px,3.4vw,38px)/1.05 var(--disp);margin:0 0 10px;color:#fff}
+.cta p{margin:0 auto 18px;max-width:46ch;color:#E4DAFF}
+footer{padding:26px 0 0;font-size:13.5px;color:var(--mute);max-width:78ch}
+@media (max-width:900px){
+ .shell{grid-template-columns:1fr}
+ nav.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 68px);height:auto;z-index:6;background:var(--bg);padding:8px 14px}
+ nav.rail .brand,nav.rail .asof{display:none}
+ nav.rail ol{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px}
+ nav.rail a{white-space:nowrap;background:var(--card)}
+ main{padding:10px 16px 64px}
+ header.top{padding:34px 24px}
+ .item{grid-template-columns:1fr}
+ .case .body{grid-template-columns:1fr}
+ .topbar .back{display:none}
+}
+@media (prefers-reduced-motion:reduce){header.top .mol,.bar .fill{animation:none}.item,.btn,.filters button{transition:none}}
 </style>
 </head>
 <body>
@@ -152,201 +120,450 @@ footer{padding:56px 0 50px;font-size:13.5px;color:var(--mute);max-width:78ch}
 <line x1="50" y1="32" x2="50" y2="10" stroke="currentColor" stroke-width="3"/><line x1="24" y1="77" x2="6" y2="88" stroke="currentColor" stroke-width="3"/>
 <circle cx="98" cy="34" r="6.5" fill="currentColor"/><circle cx="118" cy="46" r="6.5" fill="currentColor"/><circle cx="50" cy="10" r="6.5" fill="currentColor"/><circle cx="6" cy="88" r="6.5" fill="currentColor"/>
 </symbol></defs></svg>
-
-<header class="nav"><div class="wrap">
-  <a class="logo" href="#top"><i></i>Formulary</a>
-  <ul><li><a href="#sample">Free sample</a></li><li><a href="#features">What you get</a></li><li><a href="#inbox">The briefing</a></li><li><a href="#pricing">Pricing</a></li></ul>
-  <a class="btn dark sm" href="#subscribe">Subscribe</a>
+<header class="topbar"><div class="in">
+  <a class="logo" href="index.html"><i></i>Formulary</a>
+  <div class="links"><a class="back" href="index.html">Back to home</a><a class="btn grad" href="index.html#subscribe">Subscribe</a></div>
 </div></header>
 
-<main id="top">
-<section class="hero"><div class="wrap">
-  <div class="panel">
+<div class="shell">
+<nav class="rail" aria-label="Sections">
+  <p class="brand">Sample report</p>
+  <p class="asof">October 2026 edition</p>
+  <ol>
+    <li><a href="#market">Market trends</a></li>
+    <li><a href="#ingredients">Ingredients</a></li>
+    <li><a href="#tech">New technologies</a></li>
+    <li><a href="#formulation">Formulation updates</a></li>
+    <li><a href="#news">Beauty &amp; personal care news</a></li>
+    <li><a href="#companies">Company updates</a></li>
+    <li><a href="#regions">Regulation by region</a></li>
+    <li><a href="#pharma">Pharma vs cosmetics</a></li>
+    <li><a href="#gaps">Gaps &amp; caveats</a></li>
+  </ol>
+</nav>
+
+<main>
+<header class="top">
+  <svg class="mol" aria-hidden="true"><use href="#mol"/></svg>
+  <svg class="mol mol2" aria-hidden="true"><use href="#mol"/></svg>
+  <p class="pill">Sample report · compiled 12 Oct 2026</p>
+  <h1>Cosmetics and pharma, in one read</h1>
+  <p>Market, ingredients, technology, formulation, deals, company results and regulation across regions. This is the kind of depth subscribers get each day. Every item links to the page it came from, and figures are as reported on the dates shown.</p>
+  <div class="legend">
+    <span><span class="chip flag">Regulatory</span> law or rule change</span>
+    <span><span class="chip warn">Check</span> sources disagree or date unconfirmed</span>
+    <span><span class="chip">Region</span> where it applies</span>
+  </div>
+</header>
+
+<!-- 1 MARKET -->
+<section id="market">
+  <h2>1. Market trends</h2>
+  <p class="lede">Size, growth, regions and consumer behaviour. Analyst houses define the market differently, so their totals do not match.</p>
+
+  <h3>Euromonitor view: retail value, global beauty and personal care (US$ billion)</h3>
+  <div class="bars" role="img" aria-label="Bar chart: 2025 635.2, 2026 678.3, 2029 forecast 826.1 billion dollars">
+    <div class="bar"><span>2025</span><div class="track"><div class="fill" style="width:76.9%"></div></div><span class="v">635.2</span></div>
+    <div class="bar"><span>2026</span><div class="track"><div class="fill" style="width:82.1%"></div></div><span class="v">678.3</span></div>
+    <div class="bar"><span>2029 (f)</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="v">826.1</span></div>
+  </div>
+  <p class="src">Roughly 7% average annual growth, 2025–2029. <a href="https://lp.cosmoprof.com/hubfs/04_Cosmoprof%20Worldwide%20Bologna%202026_GLOBAL%20SCENARIO_ENG.pdf">Cosmoprof / Euromonitor, 26 Mar 2026</a> <a href="https://finance.yahoo.com/economy/articles/juice-cosmoprof-worldwide-bologna-war-040100835.html">WWD via Yahoo Finance</a></p>
+
+  <div class="item">
+    <div class="meta"><span class="chip">Global</span></div>
     <div>
-      <p class="pill rv">Daily intelligence for cosmetics</p>
-      <h1 class="rv" style="--d:.08s">Beauty moves fast. Stay ahead of it.</h1>
-      <p class="hsub rv" style="--d:.16s">Rules, ingredients, new technology and company news from the EU, US, India and Asia, in one briefing that lands in your inbox every morning.</p>
-      <div class="btns rv" style="--d:.24s"><a class="btn dark" href="#subscribe">Get the daily briefing</a><a class="btn white" href="#sample">Read today's free sample</a></div>
-      <div class="stats rv" style="--d:.32s">
-        <div><b data-count="4">4</b><span>regions covered</span></div>
-        <div><b data-count="9">9</b><span>sections</span></div>
-        <div><b>Daily</b><span>to your inbox</span></div>
+      <h4>Category growth for 2026: fragrance leads</h4>
+      <p>Fragrance is forecast to grow 9.2% in 2026, sun care 7.8%, men's grooming 7.1%, colour cosmetics 6.8% and hair care 6.6%. Skin care, the largest segment, is expected to pass $198 billion by 2028; hair care to pass $116 billion by 2028.</p>
+      <p class="src"><a href="https://lp.cosmoprof.com/hubfs/04_Cosmoprof%20Worldwide%20Bologna%202026_GLOBAL%20SCENARIO_ENG.pdf">Cosmoprof / Euromonitor</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip warn">Check</span></div>
+    <div>
+      <h4>Other forecasters give different totals</h4>
+      <p>IMARC puts 2025 at $552.0 billion, rising to $804.3 billion by 2034. Precedence Research (quoted by SIS International) puts 2025 at $639.47 billion and 2034 at $1,151.25 billion, a 6.76% CAGR. Technavio expects a $58.35 billion increase from 2025 to 2030, a 4.6% CAGR. Differences come from what each house counts as the market, so compare trends rather than totals.</p>
+      <p class="src"><a href="https://www.imarcgroup.com/global-beauty-personal-care-products-market">IMARC</a> <a href="https://www.sisinternational.com/zh/?p=74198">SIS International</a> <a href="https://technavio.com/report/beauty-and-personal-care-products-market-analysis">Technavio</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">Asia, MEA</span></div>
+    <div>
+      <h4>Growth is strongest outside the West</h4>
+      <p>L'Oréal's South Asia Pacific, Middle East, North Africa and Sub-Saharan Africa zone grew 13.8% in the first half of 2026, with Brazil, India and Vietnam named as standouts. At Estée Lauder, mainland China sales rose 12% in the June quarter. E-commerce now exceeds half of L'Oréal's sales in North Asia.</p>
+      <p class="src"><a href="https://www.retail-insight-network.com/news/loreal-h1-sales-up-6-8/">Retail Insight Network</a> <a href="https://longportapp.cn/news/296440304">Wallstreetcn / Longport</a> <a href="https://www.personalcareinsights.com/news/loreal-derma-hair-care-results.html">Personal Care Insights</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">US</span></div>
+    <div>
+      <h4>Online channel and clinical positioning</h4>
+      <p>SIS International reports e-commerce at 41% of US beauty and personal care sales. L'Oréal's two most clinical divisions, Dermatological Beauty and Professional Products, grew fastest in the half-year, ahead of Luxe and Consumer Products.</p>
+      <p class="src"><a href="https://www.sisinternational.com/zh/?p=74198">SIS International</a> <a href="https://www.personalcareinsights.com/news/loreal-derma-hair-care-results.html">Personal Care Insights</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- 2 INGREDIENTS -->
+<section id="ingredients">
+  <h2>2. Ingredients: new, restricted, banned, changing</h2>
+  <p class="lede">Filter by region. Status is what the linked source says on the date given. Drafts are not law until published.</p>
+  <div class="filters" role="group" aria-label="Filter by region">
+    <button type="button" aria-pressed="true" data-f="all">All</button>
+    <button type="button" aria-pressed="false" data-f="EU">EU</button>
+    <button type="button" aria-pressed="false" data-f="US">US</button>
+    <button type="button" aria-pressed="false" data-f="India">India</button>
+    <button type="button" aria-pressed="false" data-f="China">China</button>
+    <button type="button" aria-pressed="false" data-f="Canada">Canada</button>
+  </div>
+  <div class="tablewrap">
+  <table id="ingtable">
+    <thead><tr><th>Region</th><th>Ingredient or action</th><th>Status and date</th><th>Reference</th></tr></thead>
+    <tbody>
+      <tr data-region="EU"><td>EU</td><td><strong>18 new CMR-related substances</strong> added to restricted or prohibited lists (Omnibus Act VIII, Reg. (EU) 2026/78)</td><td><span class="chip flag">In force</span> Published 12 Jan 2026; applies from 1 May 2026</td><td><a href="https://www.hpra.ie/regulation/cosmetics/cosmetics-regulation/updates-to-restricted-and-prohibited-ingredients-in-cosmetic-products/omnibus-act-viii---new-substances-added-to-the-list-of-ingredients-restricted-or-prohibited-in-cosmetics-from-may-2026">HPRA (Ireland)</a></td></tr>
+      <tr data-region="EU"><td>EU</td><td><strong>Ozone, nitrous oxide, tetrahydrofurfuryl methacrylate</strong> to be banned; Benzophenone-1, Benzophenone-2, Basic Brown 16, Basic Blue 99 and prostaglandin-like substances to Annex II (Omnibus IX and 3rd ingredients omnibus)</td><td><span class="chip flag">Draft</span> Notified to WTO 8 Jul 2026. CMR-based bans from 1 Feb 2027; SCCS-based bans deferred 12 months (products on market) and 24 months (new placements) after entry into force. 16 new Annex II entries in total</td><td><a href="https://client.cosmeticobs.com/en/articles/news-59/the-european-commission-notifies-an-omnibus-cmrs-and-other-ingredients-9373?page=102">Cosmetics Observatory</a> <a href="https://coslaw.eu/omnibus-act-ix-new-ingredients-banned-in-the-eu-from-1-february-2027/">CosLaw</a></td></tr>
+      <tr data-region="EU"><td>EU</td><td><strong>Prostaglandin analogues</strong> in eyelash and eyebrow growth products (isopropyl cloprostenate, ethyl tafluprostamide, methylamido-dihydro-noralfaprostal and others)</td><td><span class="chip flag">Scientific opinion</span> SCCS found none safe for this use (2022 opinion; 2025 opinion on three analogues). Ban proposed in the draft above</td><td><a href="https://health.ec.europa.eu/publications/prostaglandins-and-prostaglandin-analogues-used-cosmetic-products_en">European Commission / SCCS</a> <a href="https://www.cirs-group.com/en/cosmetics/sccs-issued-scientific-opinion-on-prostaglandin-analogues">CIRS</a></td></tr>
+      <tr data-region="US"><td>US</td><td><strong>Bemotrizinol</strong>, new sunscreen active, up to 6%, ages 6 months and older</td><td><span class="chip flag">Final order</span> FDA announced 9 Jun 2026; order document dated 10 Jun; effective 9 Aug 2026. First new US sunscreen active in more than two decades</td><td><a href="https://www.accessdata.fda.gov/drugsatfda_docs/omuf/order/supportDoc/OTC000039/Final_Administrative_Order.pdf">FDA order OTC000039</a> <a href="https://www.venable.com/insights/publications/2026/06/fda-clears-the-way-for-bemotrizinol-first-new-otc">Venable</a></td></tr>
+      <tr data-region="US"><td>US</td><td><strong>Formaldehyde and formaldehyde-releasers</strong> in hair smoothing and straightening products</td><td><span class="chip flag">Planned</span> FDA proposed rule listed for Nov 2026 in the Unified Agenda released 3 Jul 2026. Agenda dates are targets and often slip</td><td><a href="https://cosmetic.chemlinked.com/news/cosmetic-news/us-fda-sets-november-2026-timeline-for-formaldehyde-ban-and-fragrance-allergen-rule">ChemLinked</a></td></tr>
+      <tr data-region="US"><td>US</td><td><strong>Fragrance allergen labelling</strong> (MoCRA)</td><td><span class="chip flag">Planned</span> Proposed rule now listed for Nov 2026, after repeated delays</td><td><a href="https://cosmetic.chemlinked.com/news/cosmetic-news/us-fda-sets-november-2026-timeline-for-formaldehyde-ban-and-fragrance-allergen-rule">ChemLinked</a></td></tr>
+      <tr data-region="US"><td>US</td><td><strong>Talc: asbestos testing method</strong></td><td><span class="chip flag">Withdrawn</span> FDA withdrew the Dec 2024 proposal on 28 Nov 2025; a new proposal is promised but no date. Not on the current agenda</td><td><a href="https://www.haynesboone.com/news/alerts/mocra-update.pdf">Haynes Boone</a> <a href="https://cosmetic.chemlinked.com/news/cosmetic-news/us-fda-sets-november-2026-timeline-for-formaldehyde-ban-and-fragrance-allergen-rule">ChemLinked</a></td></tr>
+      <tr data-region="US"><td>US (Vermont)</td><td><strong>Intentionally added PFAS</strong> in cosmetics</td><td><span class="chip flag">In force</span> Manufacture, sale and distribution prohibited from 1 Jan 2026</td><td><a href="https://en.reach24h.com/news/insights/cosmetic/2026-north-american-cosmetic-regulatory-outlook">REACH24H</a></td></tr>
+      <tr data-region="Canada"><td>Canada</td><td><strong>Fragrance allergen disclosure</strong></td><td><span class="chip flag">Phased</span> From 12 Apr 2026, 24 allergens declared on new and existing products; from 1 Aug 2026, newly marketed products declare 81. Thresholds: above 0.01% rinse-off, 0.001% leave-on</td><td><a href="https://en.reach24h.com/news/insights/cosmetic/2026-north-american-cosmetic-regulatory-outlook">REACH24H</a></td></tr>
+      <tr data-region="India"><td>India</td><td><strong>Injectable "cosmetics"</strong> and treatment claims; prohibited ingredients</td><td><span class="chip flag">Notice</span> CDSCO public notice 18 May 2026 (File COS-1211/2026): injectables are not cosmetics, cosmetics may not be used for treatment, and BIS publishes the restricted and not-recognised-as-safe ingredient lists</td><td><a href="https://globalcosing.chemradar.com/news/detail/fmpudgyw8ao0">ChemRadar</a> <a href="https://www.scconline.com/blog/?p=385523">SCC Online</a></td></tr>
+      <tr data-region="India"><td>India</td><td><strong>Hair colour products</strong></td><td><span class="chip flag">Circular</span> CDSCO, 10 Jun 2026: comply with Cosmetics Rules 2020 and BIS standards IS 4707 (Parts 1 and 2) and IS 8481</td><td><a href="https://cosmetic.chemlinked.com/news/cosmetic-news/monthly-recap-global-cosmetic-regulatory-updates-june-2026">ChemLinked June recap</a></td></tr>
+      <tr data-region="China"><td>China</td><td><strong>Prohibited-ingredient enforcement</strong></td><td>April 2026 sampling by NMPA and two provinces: 103 batches non-compliant, 47 with prohibited ingredients</td><td><a href="https://www.cirs-group.com/en/cosmetics/tag?tagId=88">CIRS</a></td></tr>
+      <tr data-region="China"><td>China</td><td><strong>New chemical substance registration</strong> for cosmetic finished products</td><td><span class="chip flag">Draft</span> Ministry of Ecology and Environment consultation opened 11 Jun 2026 on revising MEE Order 12. Separately, over 100 new cosmetic ingredients were filed in China in 2026</td><td><a href="https://www.cirs-group.com/en/cirs-regulatory-newsletter-june-2026-regulatory-update-ii">CIRS June newsletter</a> <a href="https://cosmetic.chemlinked.com/news/cosmetic-news/monthly-recap-global-cosmetic-regulatory-updates-june-2026">ChemLinked</a></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="src" style="margin-top:10px">Trending ingredient families seen at in-cosmetics Global 2026 (Paris, 14–16 April): fermentation-derived and biotech actives, encapsulated peptides, silicone-free hair care. See section 3.</p>
+</section>
+
+<!-- 3 TECH -->
+<section id="tech">
+  <h2>3. New technologies</h2>
+  <p class="lede">Biotech, delivery, sustainability and AI. Stability testing news did not surface in this pass; see gaps.</p>
+  <div class="item">
+    <div class="meta"><span class="chip">Biotech</span><span>Apr 2026</span></div>
+    <div>
+      <h4>Biotechnology and precision fermentation set the tone at in-cosmetics Global</h4>
+      <p>The show's Innovation Zone listed 233 ingredient launches. Ecovia Intelligence's founder singled out biotechnology and precision fermentation as the most exciting area, with supply-chain dependence noted as a pressure point.</p>
+      <p class="src"><a href="https://www.globalcosmeticsnews.com/reel-review-in-cosmetics-global-2026-lexfeel-shine-matrixyl-neolide-and-the-rise-of-biotechnology/">Global Cosmetics News</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">Biotech</span><span>Apr 2026</span></div>
+    <div>
+      <h4>Lesaffre enters cosmetics with Innosya</h4>
+      <p>The yeast and fermentation group launched a cosmetic-ingredient unit aiming for a recognised B2B position by 2030. First actives are three fermentation-derived "pro-aging" ingredients (Skinosya Chondro, Skinosya Salidroside, Skinosya SAG), clinically tested and vegan, aimed at skin stress, elasticity and menopausal ageing.</p>
+      <p class="src"><a href="https://www.personalcareinsights.com/news/lesaffre-innosya-fermented-cosmetics.html">Personal Care Insights</a> <a href="https://www.personalcareinsights.com/video/in-cosmetics-innosya-cosmetic-lesaffre-fermentation.html">Innosya video</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">Delivery</span><span>Apr 2026</span></div>
+    <div>
+      <h4>Croda's Matrixyl Neolide: encapsulated peptide delivery</h4>
+      <p>Croda Beauty Active presented the peptide technology as one of its main 2026 introductions, built on improved encapsulation for faster peptide release and functional ingredient properties.</p>
+      <p class="src"><a href="https://www.globalcosmeticsnews.com/reel-review-in-cosmetics-global-2026-lexfeel-shine-matrixyl-neolide-and-the-rise-of-biotechnology/">Global Cosmetics News</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">Sustainability</span><span>Mar 2026</span></div>
+    <div>
+      <h4>Packaging from upcycled waste; dosing hardware</h4>
+      <p>At Cosmoprof Bologna, Berlin Packaging Beauty showed packaging made from upcycled hazelnut waste, and Aptar Beauty showed a new NeoDropper Autoload dropper. Italian packaging firm Baralan's R&amp;D manager confirmed rising demand for customisation.</p>
+      <p class="src"><a href="https://finance.yahoo.com/economy/articles/juice-cosmoprof-worldwide-bologna-war-040100835.html">WWD via Yahoo Finance</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">AI, longevity</span><span>Oct 2026</span></div>
+    <div>
+      <h4>AI in operations; skin-longevity trial</h4>
+      <p>Coty's annual report names data-driven operations powered by AI as a priority in both Prestige and Consumer Beauty. A TipRanks headline dated 1 Oct 2026 says L'Oréal began a mitochondrial protection trial targeting skin longevity; I could not open the underlying article, so treat it as a headline only.</p>
+      <p class="src"><a href="https://www.sec.gov/Archives/edgar/data/0001024305/000102430526000048/coty-20260630.htm">Coty 10-K FY2026</a> <a href="https://www.cnbc.com/quotes/OR-FR">CNBC L'Oréal page (headline list)</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- 4 FORMULATION -->
+<section id="formulation">
+  <h2>4. Formulation updates</h2>
+  <p class="lede">What formulators can now use, must drop, or must relabel. Patent data was not searched in this pass.</p>
+  <div class="item">
+    <div class="meta"><span class="chip flag">Regulatory</span><span class="chip">US</span></div>
+    <div>
+      <h4>Bemotrizinol: formulation conditions in the FDA order</h4>
+      <p>Allowed up to 6%. It may be combined with any permitted sunscreen active except aminobenzoic acid or trolamine salicylate. Sprays are allowed only if made and packaged without propellant, or in a system where the propellant never contacts the formulation. DSM, the requester, holds 18 months of exclusive marketing from 9 Aug 2026. The ingredient itself has been used in Europe and elsewhere for decades.</p>
+      <p class="src"><a href="https://www.venable.com/insights/publications/2026/06/fda-clears-the-way-for-bemotrizinol-first-new-otc">Venable</a> <a href="https://www.spencerfane.com/insight/fdas-first-new-sunscreen-active-ingredient-in-decades-regulatory-exclusivity-and-commercial-implications/">Spencer Fane</a> <a href="https://policyrisk.com/federal-register/2026-11578">PolicyRisk</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip flag">Regulatory</span><span class="chip">EU</span></div>
+    <div>
+      <h4>Reformulation pipeline in the EU</h4>
+      <p>Omnibus VIII is already applying (from 1 May 2026). The draft Omnibus IX would add benzophenone-1, benzophenone-2, two hair-dye colourants and prostaglandin-like substances to the banned list, with 12 to 24 month transition periods. Eyelash and brow serums using prostaglandin analogues are the most exposed product type.</p>
+      <p class="src"><a href="https://www.hpra.ie/regulation/cosmetics/cosmetics-regulation/updates-to-restricted-and-prohibited-ingredients-in-cosmetic-products/omnibus-act-viii---new-substances-added-to-the-list-of-ingredients-restricted-or-prohibited-in-cosmetics-from-may-2026">HPRA</a> <a href="https://client.cosmeticobs.com/en/articles/news-59/the-european-commission-notifies-an-omnibus-cmrs-and-other-ingredients-9373?page=102">Cosmetics Observatory</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip flag">Labelling</span><span class="chip">Canada, US</span></div>
+    <div>
+      <h4>Fragrance allergens: label changes cascade into fragrance briefs</h4>
+      <p>Canada's list grows from 24 to 81 declarable allergens for newly marketed products from 1 Aug 2026. The US proposed rule is now targeted for Nov 2026. Formulators using complex fragrance compounds should check allergen content against both lists.</p>
+      <p class="src"><a href="https://en.reach24h.com/news/insights/cosmetic/2026-north-american-cosmetic-regulatory-outlook">REACH24H</a> <a href="https://cosmetic.chemlinked.com/news/cosmetic-news/us-fda-sets-november-2026-timeline-for-formaldehyde-ban-and-fragrance-allergen-rule">ChemLinked</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">Supplier launches</span><span>Apr 2026</span></div>
+    <div>
+      <h4>Launches reported from in-cosmetics Global</h4>
+      <p>Croda's Matrixyl Neolide (encapsulated peptide), Lesaffre Innosya's three fermentation actives, and a silicone-free hair-care ingredient range (LexFeel Shine) were featured among the 233 Innovation Zone launches.</p>
+      <p class="src"><a href="https://www.globalcosmeticsnews.com/reel-review-in-cosmetics-global-2026-lexfeel-shine-matrixyl-neolide-and-the-rise-of-biotechnology/">Global Cosmetics News</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip flag">Regulatory</span><span class="chip">India</span></div>
+    <div>
+      <h4>Hair-colour compliance in India</h4>
+      <p>CDSCO's June circular reminds manufacturers and importers that hair colour products must meet IS 4707 and IS 8481 alongside the Cosmetics Rules, 2020.</p>
+      <p class="src"><a href="https://cosmetic.chemlinked.com/news/cosmetic-news/monthly-recap-global-cosmetic-regulatory-updates-june-2026">ChemLinked June recap</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- 5 NEWS -->
+<section id="news">
+  <h2>5. Beauty and personal care news</h2>
+  <p class="lede">Launches, mergers and acquisitions, brand moves.</p>
+  <div class="item">
+    <div class="meta"><span class="chip">M&amp;A</span><span>Jun–Jul 2026</span></div>
+    <div>
+      <h4>L'Oréal: Color Wow, Innovist, Kering brands</h4>
+      <p>L'Oréal completed the Color Wow acquisition on 30 June 2026, signed to buy a majority of India's Innovist, and confirmed a Gucci beauty and fragrance licence from Kering. Creed, Bottega Veneta and Balenciaga have been in its accounts since April. A separate report says L'Oréal has screened over 100 firms and plans a US skin care acquisition by end of 2026.</p>
+      <p class="src"><a href="https://cosmeticsbusiness.com/lor%C3%A9al-dermatological-division-leads-soaring-sales-h1-2026">Cosmetics Business</a> <a href="https://www.retail-insight-network.com/news/loreal-h1-sales-up-6-8/">Retail Insight Network</a> <a href="https://finance.yahoo.com/economy/articles/juice-cosmoprof-worldwide-bologna-war-040100835.html">WWD</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">Licence</span><span>7 Jul 2026</span></div>
+    <div>
+      <h4>Coty hands Gucci Beauty back to Kering for about $400 million</h4>
+      <p>Coty received $250 million at signing and will get $150 million by 30 Sep 2027 (up to $30 million contingent). Coty keeps operating Gucci Beauty through at least 30 Jun 2027. Proceeds go to debt reduction and core prestige brands. Coty and Interparfums both denied talks over Boss and Burberry fragrance licences.</p>
+      <p class="src"><a href="https://www.sec.gov/Archives/edgar/data/0001024305/000102430526000038/exhibit991pressreleasedate.htm">Coty 8-K</a> <a href="https://www.globalcosmeticsnews.com/sunday-business-dealmakers-2/">Global Cosmetics News</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">Portfolio</span><span>Sep 2026</span></div>
+    <div>
+      <h4>Unilever reshapes towards beauty and wellness</h4>
+      <p>Unilever agreed to buy US greens-supplement brand Grüns and to sell Zwitsal to Royal Sanders. In its week-39 roundup the trade site also lists Macquarie PE buying Hwasung Cosmetics and Nowcos for KRW 300 billion, and the Arnault family consolidating its LVMH stake within Agache SCA.</p>
+      <p class="src"><a href="https://www.globalcosmeticsnews.com/global-cosmetics-news-weekly-review-week-39-september-2026/">Global Cosmetics News, week 39</a> <a href="https://www.globalcosmeticsnews.com/sunday-business-dealmakers-2/">Dealmakers roundup</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">Travel retail</span><span>Nov 2026</span></div>
+    <div>
+      <h4>Japan to introduce a new tax-free shopping refund system</h4>
+      <p>Headline in the same weekly review; relevant to prestige beauty demand from visiting shoppers. Details were not opened.</p>
+      <p class="src"><a href="https://www.globalcosmeticsnews.com/global-cosmetics-news-weekly-review-week-39-september-2026/">Global Cosmetics News</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- 6 COMPANIES -->
+<section id="companies">
+  <h2>6. Company updates</h2>
+  <p class="lede">Latest reported results and announcements. Unilever and P&amp;G were not covered in this pass.</p>
+
+  <div class="item">
+    <div class="meta"><strong>L'Oréal</strong><span>H1 2026, 29 Jul</span></div>
+    <div>
+      <h4>Record half-year margin of 21.3%</h4>
+      <p>Sales €23.77 billion: +6.8% like-for-like, +5.8% reported, +6.5% adjusted for an IT-transformation timing effect. Operating profit €5.06 billion (+6.8%). Net profit excluding non-recurring items €3.96 billion, €7.40 per share (+4.7%). Adjusted growth by division: Professional Products +11.6%, Dermatological Beauty +10.6%, Luxe +5.1%, Consumer Products +4.3%. Management expects another year of sales and profit growth.</p>
+      <p class="src"><a href="https://www.loreal-finance.com/eng/press-release/2026-half-year-results">L'Oréal press release</a> <a href="https://www.retail-insight-network.com/news/loreal-h1-sales-up-6-8/">Retail Insight Network</a> <span class="chip warn">Check</span> <a href="https://cosmeticsbusiness.com/lor%C3%A9al-dermatological-division-leads-soaring-sales-h1-2026">Cosmetics Business</a> shows different division percentages (basis not stated)</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><strong>Estée Lauder</strong><span>FY2026, 19 Aug</span></div>
+    <div>
+      <h4>Return to growth; FY27 margin outlook raised</h4>
+      <p>Fiscal year to 30 Jun 2026: net sales +5% reported, +3% organic. Fourth quarter +6% reported, +5% organic, revenue about $3.63 billion, adjusted EPS $0.39 against a $0.32 estimate. Adjusted operating profit $1.687 billion (+47%), margin 11.2% versus 8.0%. Fragrance $2.779 billion (+12%). FY27 guidance: organic sales +3% to +5%, adjusted operating margin 12.7% to 13.5% (raised). Restructuring charges total $1.4 billion; a $38 million tariff-refund benefit was booked in the quarter. Next report 2 Nov 2026.</p>
+      <p class="src"><a href="https://www.sec.gov/Archives/edgar/data/0001001250/000100125026000038/elq4fy2026exhibit991.htm">SEC 8-K</a> <a href="https://longportapp.cn/news/296440304">Wallstreetcn / Longport</a> <a href="https://www.earningswhispers.com/epsdetails/EL/202606">Earnings Whispers</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><strong>Coty</strong><span>FY2026, 19 Aug</span></div>
+    <div>
+      <h4>Transition year, Gucci exit, leadership reset</h4>
+      <p>Q4 revenue $1.27 billion (+1.3%), like-for-like −1%, adjusted loss $0.02 a share; Q1 adjusted EPS guided to $0.11–$0.13 against a $0.14 consensus. Full-year revenue about $5.8 billion, down 1.5%. FY27 is described as a transition year; final decisions on the Consumer Beauty strategic review are due by end of calendar 2026. Markus Strobel is Executive Chairman and interim CEO; Soraya Benchikh became CFO on 1 Sep. RBC cut its rating to Sector Perform with a $3 target. Next report estimated 5 Nov 2026.</p>
+      <p class="src"><a href="https://www.sec.gov/Archives/edgar/data/0001024305/000102430526000045/exhibit991-earningsrelease.htm">Coty 8-K</a> <a href="https://www.sec.gov/Archives/edgar/data/0001024305/000102430526000050/pressreleasedatedaugust192.htm">CFO 8-K</a> <a href="https://finance.yahoo.com/markets/stocks/articles/coty-coty-shares-came-under-140113262.html">Yahoo Finance</a> <a href="https://stockanalysis.com/stocks/coty/">StockAnalysis</a></p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><strong>Nykaa (FSN)</strong><span>Q2 FY26, Nov 2025</span></div>
+    <div>
+      <h4>Latest results found are from the September 2025 quarter</h4>
+      <p>Revenue ₹2,345.98 crore (+25.1%), net profit ₹34.4 crore, gross merchandise value ₹4,744 crore (+30%). Falguni Nayar was reappointed Executive Chairperson, MD and CEO for five years from 12 Feb 2026. I did not find the more recent quarterly result in this pass.</p>
+      <p class="src"><a href="https://www.outlookbusiness.com/news/nykaa-shares-climb-nearly-8-after-earnings-announcement">Outlook Business</a> <span class="chip warn">Check</span> newer results likely exist</p>
+    </div>
+  </div>
+  <div class="item">
+    <div class="meta"><strong>Shiseido</strong></div>
+    <div>
+      <h4>H1 2026 profit surged despite softer like-for-like sales</h4>
+      <p>Headline only; the article was not opened, so no figures are given here.</p>
+      <p class="src"><a href="https://www.globalcosmeticsnews.com/global-cosmetics-news-weekly-review-week-39-september-2026/">Global Cosmetics News</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- 8 REGIONS -->
+<section id="regions">
+  <h2>7. Regulation by region: drug and cosmetics law</h2>
+  <p class="lede">How each region frames the law and what changed recently. Japan, ASEAN (beyond Indonesia), Korea and the Middle East were not covered in this pass.</p>
+  <div class="tablewrap">
+  <table>
+    <thead><tr><th>Region</th><th>Core law and regulator</th><th>How cosmetics differ from drugs</th><th>Latest developments</th></tr></thead>
+    <tbody>
+      <tr><td><strong>India</strong></td><td>Drugs and Cosmetics Act, 1940; Cosmetics Rules, 2020 (in force 15 Dec 2020; 72 rules, 13 schedules); Cosmetics (Amendment) Rules, 2025. State authorities licence manufacture; CDSCO (DCGI) issues import Registration Certificates. BIS sets ingredient and test standards, but there is no general mandatory BIS certification for cosmetics</td><td>A cosmetic is something applied to the body to cleanse, beautify or alter appearance. Injectables and treatment claims fall outside it (CDSCO notice, 18 May 2026)</td><td>Injectables and treatment-claim notice (May 2026); hair-colour circular (Jun 2026); new Central Cosmetics Laboratory; commentators say post-market surveillance is the weak point and urge batch-wise testing and a cosmetovigilance system</td></tr>
+      <tr><td><strong>EU</strong></td><td>Regulation (EC) No 1223/2009; ingredient lists in Annexes II–VI; CMR Category 1A, 1B and 2 substances are prohibited unless exempted; products notified through CPNP</td><td>Borderline products are classified by function. A German authority treated an eyelash serum as a medicine, which led to a case before the EU Court of Justice</td><td>Omnibus VIII applying from 1 May 2026; draft Omnibus IX notified 8 Jul 2026; Omnibus VI (chemicals simplification) trilogue deal on 16 Jun 2026; Commission Decision 2026/1435 (29 Jun) on French rules for destroying unsold goods</td></tr>
+      <tr><td><strong>United States</strong></td><td>Federal Food, Drug and Cosmetic Act as expanded by MoCRA (2022); FDA</td><td>Sunscreen actives are regulated as over-the-counter drugs under monograph M020, whereas many other countries treat them as cosmetics</td><td>Bemotrizinol approved (effective 9 Aug 2026); talc rule withdrawn; formaldehyde and fragrance allergen proposals targeted Nov 2026; GMP rule absent from the agenda; Vermont PFAS ban from 1 Jan 2026</td></tr>
+      <tr><td><strong>Canada</strong></td><td>Health Canada cosmetic regulations</td><td>n/a in sources reviewed</td><td>Fragrance allergen disclosure phased in from 12 Apr and 1 Aug 2026</td></tr>
+      <tr><td><strong>China</strong></td><td>NMPA and provincial regulators; MEE for chemical registration</td><td>n/a in sources reviewed</td><td>New-ingredient filings above 100 in 2026; April sampling found 103 non-compliant batches; draft Order 12 revision would pull finished cosmetics into new-chemical registration; 11 new cosmetic standards issued in June 2026</td></tr>
+      <tr><td><strong>Indonesia</strong></td><td>BPOM</td><td>n/a in sources reviewed</td><td>Drafting broader pharmacovigilance rules for cosmetics (June 2026 recap)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="src" style="margin-top:10px"><a href="https://cosmetic.chemlinked.com/cosmepedia/india-cosmetic-regulation">ChemLinked India guide</a> <a href="https://www.cdsco.gov.in/opencms/en/Cosmetics/cosmetics/">CDSCO cosmetics page</a> <a href="https://www.ice.it/it/sites/default/files/inline-files/Articolo_Maggio%202026.pdf">ICE note on BIS (Italian)</a> <a href="https://www.siasat.com/beauty-personal-care-regulations-in-india-progress-pitfalls-and-road-ahead-3454232/amp/">Siasat</a> <a href="https://coslaw.eu/case-law-classification-of-a-borderline-product-between-cosmetic-and-medicinal/">CosLaw case note</a> <a href="https://www.hpra.ie/news-events/news/article/european-commission-updated-list-of-ingredients-restricted-or-prohibited-for-use-in-cosmetics">HPRA</a> <a href="https://client.cosmeticobs.com/en/articles/commission-europeenne-45?page=40">Cosmetics Observatory</a> <a href="https://www.drugtopics.com/view/fda-approves-bemotrizinol-as-an-otc-sunscreen-ingredient">Drug Topics</a> <a href="https://cosmetic.chemlinked.com/news/cosmetic-news/monthly-recap-global-cosmetic-regulatory-updates-june-2026">ChemLinked June recap</a></p>
+</section>
+
+<!-- 9 PHARMA -->
+<section id="pharma">
+  <h2>8. Pharma and cosmetics: ingredients that cross over, and ones that cannot</h2>
+  <p class="lede">The same molecule can be a drug in one setting and barred from cosmetics in another. Each case below separates the R&amp;D reason from the regulatory reason. Items marked "background" come from general knowledge, not the linked sources.</p>
+
+  <details class="case" open>
+    <summary>Prostaglandin analogues (bimatoprost and relatives): eye drugs, not lash cosmetics</summary>
+    <div class="body">
+      <div class="col">
+        <h5>Technical and R&amp;D</h5>
+        <p>Bimatoprost is a prostaglandin analogue used in medicines to lower eye pressure, and its eyelash-growth effect led to a drug for eyelash hypotrichosis. Analogues then appeared in lash cosmetics. They are known to cause eye and surrounding-tissue adverse effects, and the SCCS noted they can act at very low concentrations near the eye.</p>
+        <p class="bg">Background: these are potent receptor-active molecules, so the growth effect is a pharmacological effect, not a cosmetic one.</p>
       </div>
+      <div class="col reg">
+        <h5>Regulatory</h5>
+        <p>The SCCS (2022) raised safety concerns, and its 2025 opinion found none of the assessed analogues safe for lash and brow growth. France's Anses warned in 2025. A German authority classified such a serum as a medicinal product by function. The EU draft would add prostaglandin-like substances to the banned list.</p>
+      </div>
+      <div class="foot"><a href="https://health.ec.europa.eu/publications/prostaglandins-and-prostaglandin-analogues-used-cosmetic-products_en">EC / SCCS</a> <a href="https://www.cirs-group.com/en/cosmetics/sccs-issued-scientific-opinion-on-prostaglandin-analogues">CIRS</a> <a href="https://us.typology.com/library/prostaglandin-derivatives-what-does-cosmetic-regulation-say-about-them">Typology</a> <a href="https://coslaw.eu/case-law-classification-of-a-borderline-product-between-cosmetic-and-medicinal/">CosLaw</a> <a href="https://ec.europa.eu/newsroom/growth/items/680681/en">EC call for data</a></div>
     </div>
-    <div class="art" aria-hidden="true">
-      <svg class="mol fl" style="right:6%;top:50px;width:200px;color:#240F55"><use href="#mol"/></svg>
-      <svg class="mol fl2" style="right:42%;top:6px;width:90px;color:#fff"><use href="#mol"/></svg>
-      <svg class="mol fl3" style="right:0;bottom:70px;width:100px;color:#FFE9B8"><use href="#mol"/></svg>
-      <div class="mail"><small>TODAY'S BRIEFING · EXAMPLE</small><p>Draft EU ban on two UV filters</p><div class="row"><span class="chip pk">Regulatory</span><span class="chip lv">EU</span><span class="chip am">Sun care</span></div></div>
-      <div class="sticker">Every morning</div>
+  </details>
+
+  <details class="case">
+    <summary>Injectables and "treatment" actives: outside the cosmetic definition in India</summary>
+    <div class="body">
+      <div class="col">
+        <h5>Technical and R&amp;D</h5>
+        <p>Cosmetic products are designed for external application. An injected product bypasses the skin barrier, which is a different exposure and risk profile from anything tested for topical cosmetics.</p>
+        <p class="bg">Background: injection also demands sterility and clinical evidence that cosmetic safety files do not cover.</p>
+      </div>
+      <div class="col reg">
+        <h5>Regulatory</h5>
+        <p>CDSCO's 18 May 2026 notice says injectables are not cosmetics, cannot be used by consumers, professionals or aesthetic clinics under the cosmetic label, and that cosmetics cannot be promoted or used for treatment. Using prohibited ingredients is a violation of the Act and Rules.</p>
+      </div>
+      <div class="foot"><a href="https://www.scconline.com/blog/?p=385523">SCC Online</a> <a href="https://globalcosing.chemradar.com/news/detail/fmpudgyw8ao0">ChemRadar</a> <a href="https://www.freyrsolutions.com/consumer-industry-news/indias-cdsco-reinforces-cosmetic-safety-rules-and-restrictions-on-injectable-cosmetic-applications">Freyr</a></div>
     </div>
-  </div>
-  <div class="who rv" aria-label="Who it is for"><span>Formulators and R&amp;D</span><span>Brands and founders</span><span>Regulatory consultants</span><span>Ingredient suppliers</span></div>
-</div></section>
+  </details>
 
-<div class="ticker" aria-label="Sample headlines"><div class="track">
-  <span><em>EU</em>Draft ban on benzophenone-1 and -2 proposed</span>
-  <span><em>US</em>Bemotrizinol sunscreen order effective 9 Aug</span>
-  <span><em>India</em>CDSCO: injectables are not cosmetics</span>
-  <span><em>Canada</em>81 fragrance allergens from 1 Aug</span>
-  <span><em>China</em>Consultation on new-chemical registration</span>
-  <span><em>Companies</em>L'Oréal record half-year margin</span>
-</div></div>
-
-<section id="sample"><div class="wrap">
-  <p class="pill rv">Free sample</p>
-  <h2 class="rv">Today's briefing, <em>part unlocked</em>.</h2>
-  <p class="lede rv">Three real items from the latest briefing, free. Subscribers get every item, in every section, by email.</p>
-  <div class="grid3" id="free-items">
-    <article class="item rv"><div class="chips"><span class="chip pk">Regulatory</span><span class="chip lv">EU</span><span class="chip am">Sun care</span></div><h3>Draft Omnibus IX would ban benzophenone-1 and -2</h3><p>Notified 8 Jul 2026. CMR-based bans start 1 Feb 2027; SCCS-based bans follow after 12 to 24 month transitions.</p><span class="src">Cosmetics Observatory · 8 Jul 2026</span></article>
-    <article class="item rv" style="--d:.08s"><div class="chips"><span class="chip pk">Regulatory</span><span class="chip lv">US</span><span class="chip am">Sun care</span></div><h3>FDA adds bemotrizinol to the sunscreen monograph</h3><p>Up to 6% for ages 6 months and older, effective 9 Aug 2026, with 18 months of exclusivity for the requester.</p><span class="src">Venable · 10 Jun 2026</span></article>
-    <article class="item rv" style="--d:.16s"><div class="chips"><span class="chip pk">Regulatory</span><span class="chip lv">India</span><span class="chip mn">Borderline</span></div><h3>CDSCO: injectables are not cosmetics</h3><p>Public notice of 18 May 2026 restates the cosmetic definition and bars treatment claims.</p><span class="src">ChemRadar · 18 May 2026</span></article>
-  </div>
-  <div class="grid3" style="margin-top:20px">
-    <article class="item lock rv"><div class="chips"><span class="chip lv">Canada</span><span class="chip am">Fragrance</span></div><div class="sk"></div><div class="sk s"></div><div class="shade"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Regulation · Canada<br>Subscribers only</div></article>
-    <article class="item lock rv" style="--d:.08s"><div class="chips"><span class="chip lv">China</span><span class="chip pk">Regulatory</span></div><div class="sk"></div><div class="sk s"></div><div class="shade"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Regulation · China<br>Subscribers only</div></article>
-    <article class="item lock rv" style="--d:.16s"><div class="chips"><span class="chip lv">Global</span><span class="chip mn">Company</span></div><div class="sk"></div><div class="sk s"></div><div class="shade"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Companies and markets<br>Subscribers only</div></article>
-  </div>
-  <p class="note" id="sample-note">The free sample refreshes every day with the newest regulatory items.</p>
-</div></section>
-
-<section id="features"><div class="wrap">
-  <p class="pill rv">What you get</p>
-  <h2 class="rv">Everything that moves beauty, <em>in one place</em>.</h2>
-  <div class="grid3" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr))">
-    <article class="feat f1 rv"><div class="ic"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="17"/><ellipse cx="24" cy="24" rx="7" ry="17"/><path d="M7 24h34M10 14h28M10 34h28"/></svg></div><h3>Regulation by region</h3><p>EU, UK, US, Canada, India, China, Japan, Korea and ASEAN, with the law and the date on each item.</p></article>
-    <article class="feat f2 rv" style="--d:.07s"><div class="ic"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M18 6h12M20 6v14L9 38a3 3 0 0 0 3 5h24a3 3 0 0 0 3-5L28 20V6"/><path d="M14 31h20"/></svg></div><h3>Ingredient watch</h3><p>New, restricted and banned ingredients, safety opinions, and drug-versus-cosmetic boundary cases.</p></article>
-    <article class="feat f3 rv" style="--d:.14s"><div class="ic"><svg viewBox="0 0 48 48" aria-hidden="true"><ellipse cx="24" cy="24" rx="19" ry="7"/><ellipse cx="24" cy="24" rx="19" ry="7" transform="rotate(60 24 24)"/><ellipse cx="24" cy="24" rx="19" ry="7" transform="rotate(120 24 24)"/><circle cx="24" cy="24" r="2.5"/></svg></div><h3>Technology and formulation</h3><p>Biotech, delivery systems, stability science and supplier launches, with research links.</p></article>
-    <article class="feat f4 rv" style="--d:.21s"><div class="ic"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M6 40V8M6 40h36"/><path d="M12 32l9-10 7 6 12-16"/></svg></div><h3>Companies and markets</h3><p>Results, deals and brand moves from the groups and suppliers that shape the industry.</p></article>
-  </div>
-</div></section>
-
-<section id="inbox"><div class="wrap split">
-  <div>
-    <p class="pill rv">The daily briefing</p>
-    <h2 class="rv">A morning read that <em>respects your time</em>.</h2>
-    <p class="lede rv">One email, grouped by section, with the regulatory items marked and a source link on every line.</p>
-    <ul class="checks rv">
-      <li><b><svg viewBox="0 0 16 16"><path d="M3 8.5l3.2 3L13 4.5"/></svg></b>Regulatory changes flagged first</li>
-      <li><b><svg viewBox="0 0 16 16"><path d="M3 8.5l3.2 3L13 4.5"/></svg></b>Region and product-category tags on every item</li>
-      <li><b><svg viewBox="0 0 16 16"><path d="M3 8.5l3.2 3L13 4.5"/></svg></b>A source link so you can verify before you act</li>
-      <li><b><svg viewBox="0 0 16 16"><path d="M3 8.5l3.2 3L13 4.5"/></svg></b>Only new items, never repeats</li>
-    </ul>
-  </div>
-  <div class="email rv" style="--d:.1s" aria-label="Example briefing email">
-    <div class="hd"><i></i><i></i><i></i><span>Formulary · Cosmetics briefing (example)</span></div>
-    <div class="bd">
-      <h4>What changed</h4>
-      <ul><li>EU proposes banning benzophenone-1 and -2, with 12 to 24 month transitions.</li><li>US adds bemotrizinol as a sunscreen active, effective 9 Aug 2026.</li><li>India restates that injectables are not cosmetics.</li></ul>
-      <div class="sec">Regulation (3)</div>
-      <p class="ln">Draft Omnibus IX notified to the WTO <span class="chip pk">Regulatory</span> <span class="chip lv">EU</span></p>
-      <p class="ln">CDSCO notice on injectable cosmetics <span class="chip pk">Regulatory</span> <span class="chip lv">India</span></p>
-      <div class="sec">Companies (2)</div>
-      <p class="ln">L'Oréal reports a record half-year margin <span class="chip mn">Company</span></p>
+  <details class="case">
+    <summary>Sunscreen filters: a cosmetic in many countries, a drug in the US</summary>
+    <div class="body">
+      <div class="col">
+        <h5>Technical and R&amp;D</h5>
+        <p>Bemotrizinol has been marketed in Europe and elsewhere for decades. The FDA order sets use conditions: up to 6%, listed combination limits, propellant-free sprays only.</p>
+      </div>
+      <div class="col reg">
+        <h5>Regulatory</h5>
+        <p>The US treats sunscreen actives as OTC drugs that need drug-style evidence, so a filter available abroad took years to be added; many other countries treat them as cosmetics and adopt new filters faster. Bemotrizinol was added on 10 June 2026 through the CARES Act administrative-order route, the first success of that route.</p>
+      </div>
+      <div class="foot"><a href="https://www.drugtopics.com/view/fda-approves-bemotrizinol-as-an-otc-sunscreen-ingredient">Drug Topics</a> <a href="https://www.spencerfane.com/insight/fdas-first-new-sunscreen-active-ingredient-in-decades-regulatory-exclusivity-and-commercial-implications/">Spencer Fane</a> <a href="https://www.venable.com/insights/publications/2026/06/fda-clears-the-way-for-bemotrizinol-first-new-otc">Venable</a></div>
     </div>
-  </div>
-</div></section>
+  </details>
 
-<section id="pricing"><div class="wrap">
-  <p class="pill rv">Pricing</p>
-  <h2 class="rv">Start free. <em>Stay informed</em> for $10 a month.</h2>
-  <div class="bill rv" role="group" aria-label="Billing period">
-    <button type="button" data-plan="monthly" aria-pressed="true">Monthly</button>
-    <button type="button" data-plan="yearly" aria-pressed="false">Yearly <span class="save">Save $20</span></button>
-  </div>
-  <div class="plans">
-    <div class="plan rv"><h3>Free sample</h3><div class="price">Free</div><ul><li>Three items from the latest briefing</li><li>Open any time on this site</li><li>No sign-up needed</li></ul><a class="btn ghost" href="#sample">Read the sample</a></div>
-    <div class="plan pro rv" style="--d:.1s"><span class="badge">Most chosen</span><h3>Daily briefing</h3><div class="price"><span id="pp">$10</span> <small id="pu">/ month</small></div><p class="pnote" id="pn">Billed monthly. Cancel any time.</p><ul><li>Every new item, every morning, by email</li><li>All nine sections, all four regions</li><li>Regulatory flags and source links</li><li>Cancel any time</li></ul><a class="btn grad" href="#subscribe" id="pbtn">Subscribe</a></div>
-  </div>
-</div></section>
+  <details class="case">
+    <summary>CMR substances: tolerated in some medicines, prohibited in EU cosmetics</summary>
+    <div class="body">
+      <div class="col">
+        <h5>Technical and R&amp;D</h5>
+        <p class="bg">Background: a medicine can accept a carcinogenic or reproductive-toxicity risk when a patient gains a therapeutic benefit that outweighs it. A cosmetic is used by healthy people, often daily, and offers no treatment benefit to set against that risk.</p>
+      </div>
+      <div class="col reg">
+        <h5>Regulatory</h5>
+        <p>Under the EU Cosmetics Regulation, a substance classified CMR 1A, 1B or 2 under CLP is prohibited in cosmetics unless specific exemptions apply. That is why annual "Omnibus" acts copy new CLP classifications into Annex II (18 substances from 1 May 2026; more proposed for 1 Feb 2027).</p>
+      </div>
+      <div class="foot"><a href="https://www.hpra.ie/regulation/cosmetics/cosmetics-regulation/updates-to-restricted-and-prohibited-ingredients-in-cosmetic-products/omnibus-act-viii---new-substances-added-to-the-list-of-ingredients-restricted-or-prohibited-in-cosmetics-from-may-2026">HPRA</a> <a href="https://coslaw.eu/omnibus-act-ix-new-ingredients-banned-in-the-eu-from-1-february-2027/">CosLaw</a></div>
+    </div>
+  </details>
 
-<section id="subscribe"><div class="wrap">
-  <div class="sub rv">
-    <svg class="mol fl" style="left:4%;top:24px;width:120px;color:#FF3D8B" aria-hidden="true"><use href="#mol"/></svg>
-    <svg class="mol fl2" style="right:5%;bottom:22px;width:140px;color:#FFC23D" aria-hidden="true"><use href="#mol"/></svg>
-    <h2>Know before <em>everyone else</em> does.</h2>
-    <p>Get tomorrow's briefing in your inbox. <span id="planline">Monthly, $10 a month.</span> <a href="#pricing">Change plan</a></p>
-    <div class="form"><input id="em" type="email" placeholder="name@company.com" aria-label="Email address" autocomplete="email"><button class="btn" id="go" type="button">Subscribe</button></div>
-    <div class="msg" id="msg" role="status" aria-live="polite"></div>
+  <h3>Worldwide pharma and cosmetics regulatory news, last 4 months</h3>
+  <div class="item">
+    <div class="meta"><span class="chip">China</span><span>11 Jun 2026</span></div>
+    <div><p>Draft revision of MEE Order 12 would expand China's chemical registration to products regulated elsewhere, including cosmetics, pharmaceuticals, food and pesticides, if their substances are not on the national inventory.</p><p class="src"><a href="https://www.cirs-group.com/en/cirs-regulatory-newsletter-june-2026-regulatory-update-ii">CIRS</a></p></div>
   </div>
+  <div class="item">
+    <div class="meta"><span class="chip">EU</span><span>2 Jul 2026</span></div>
+    <div><p>The Commission announced a review of the "rolling list" in its REACH restrictions roadmap, first published in 2022, and on 16 June political agreement was reached on Omnibus VI to simplify chemicals requirements.</p><p class="src"><a href="https://client.cosmeticobs.com/en/articles/commission-europeenne-45?page=40">Cosmetics Observatory</a></p></div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">US</span><span>3 Jul 2026</span></div>
+    <div><p>The 2026 Unified Agenda dropped the talc testing rule and the GMP rule and scheduled formaldehyde and fragrance-allergen proposals for Nov 2026.</p><p class="src"><a href="https://cosmetic.chemlinked.com/news/cosmetic-news/us-fda-sets-november-2026-timeline-for-formaldehyde-ban-and-fragrance-allergen-rule">ChemLinked</a></p></div>
+  </div>
+  <div class="item">
+    <div class="meta"><span class="chip">Indonesia</span><span>Jun 2026</span></div>
+    <div><p>BPOM drafted broader pharmacovigilance rules for cosmetics, a sign that adverse-event monitoring, long standard for drugs, is spreading to cosmetics.</p><p class="src"><a href="https://cosmetic.chemlinked.com/news/cosmetic-news/monthly-recap-global-cosmetic-regulatory-updates-june-2026">ChemLinked</a></p></div>
+  </div>
+</section>
+
+<!-- GAPS -->
+<section id="gaps">
+  <h2>Gaps and caveats</h2>
+  <div class="note">
+    <strong>Not covered in this pass:</strong> stability and shelf-life research; patent filings; Unilever and P&amp;G results; Japan, Korea and ASEAN (except Indonesia) regulation; Nykaa's newest quarterly results. Several figures come from trade sites summarising official documents, so confirm against the primary source before relying on them in a filing or an investment decision.
+  </div>
+  <div class="cta"><h2>Want this every morning?</h2><p>The daily briefing puts the newest items from every section in your inbox.</p><a class="btn grad" href="index.html#subscribe">Subscribe to the daily briefing</a></div>
   <footer>
-    <p>Summaries are generated automatically from headlines and source snippets and may contain errors. Confirm any regulation or figure against the linked source before acting on it. Formulary is information only and does not provide legal or investment advice.</p>
-    <p>Prices are in US dollars. Applicable taxes may be added at checkout.</p>
+    Compiled on 12 Oct 2026 from the linked pages. This sample report is a one-time snapshot and does not refresh itself. Summaries may contain errors, so confirm each item against its source. Nothing here is legal or investment advice.
   </footer>
-</div></section>
+</section>
 </main>
+</div>
 
 <script>
 (function(){
-  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  document.querySelectorAll('.ticker .track').forEach(function(t){ t.innerHTML = t.innerHTML + t.innerHTML; });
-  function count(el){
-    var n = parseInt(el.getAttribute('data-count'),10);
-    if (isNaN(n) || reduce) return;
-    var t0 = null; el.textContent = '0';
-    function step(ts){ if (t0 === null) t0 = ts; var p = Math.min((ts - t0)/1100,1); el.textContent = Math.round(n*(1-Math.pow(1-p,3))); if (p<1) requestAnimationFrame(step); }
-    requestAnimationFrame(step);
-  }
-  if ('IntersectionObserver' in window) {
-    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(!e.isIntersecting) return; e.target.classList.add('in'); e.target.querySelectorAll('[data-count]').forEach(count); io.unobserve(e.target); }); }, {threshold:.15});
-    document.querySelectorAll('.rv').forEach(function(e){ io.observe(e); });
-  } else { document.querySelectorAll('.rv').forEach(function(e){ e.classList.add('in'); }); }
-  // ---- Checkout links: paste your payment links between the quotes ----
-  var CHECKOUT = { monthly: "", yearly: "" };
-  var PLANS = {
-    monthly: { price: "$10", unit: "/ month", note: "Billed monthly. Cancel any time.", line: "Monthly, $10 a month." },
-    yearly: { price: "$100", unit: "/ year", note: "Billed once a year. About $8.33 a month, two months free.", line: "Yearly, $100 a year." }
-  };
-  var plan = "monthly";
-  function setPlan(p) {
-    plan = p;
-    document.querySelectorAll('.bill button').forEach(function(b){ b.setAttribute('aria-pressed', b.getAttribute('data-plan') === p ? 'true' : 'false'); });
-    document.getElementById('pp').textContent = PLANS[p].price;
-    document.getElementById('pu').textContent = PLANS[p].unit;
-    document.getElementById('pn').textContent = PLANS[p].note;
-    document.getElementById('planline').textContent = PLANS[p].line;
-  }
-  document.querySelectorAll('.bill button').forEach(function(b){ b.addEventListener('click', function(){ setPlan(b.getAttribute('data-plan')); }); });
-
-  var em = document.getElementById('em'), msg = document.getElementById('msg');
-  function say(t, bad){ msg.textContent = t; msg.style.color = bad ? '#6B1D3A' : '#2B1B22'; }
-  document.getElementById('go').addEventListener('click', function(){
-    var v = em.value.trim();
-    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v)) { say('Enter a valid email address.', true); em.focus(); return; }
-    var link = CHECKOUT[plan];
-    if (!link || link.indexOf('https://') !== 0) { say('Subscriptions are opening soon. Please check back shortly.', false); return; }
-    if (link.indexOf('buy.stripe.com') !== -1) { link += (link.indexOf('?') === -1 ? '?' : '&') + 'prefilled_email=' + encodeURIComponent(v); }
-    window.location.href = link;
-  });
-  em.addEventListener('input', function(){ say('', false); });
-  document.getElementById('pbtn').addEventListener('click', function(){ setTimeout(function(){ em.focus({preventScroll:true}); }, 400); });
-
-  // ---- Free sample: filled each day from data/sample.json ----
-  function safeUrl(u){ try { var x = new URL(u); return (x.protocol === 'https:' || x.protocol === 'http:') ? x.href : null; } catch(e){ return null; } }
-  function fmt(iso){ var d = new Date(iso); return isNaN(d) ? '' : d.toLocaleDateString('en-GB', {day:'numeric', month:'short', year:'numeric'}); }
-  function mk(tag, cls, text){ var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
-  function cap(t){ return t ? t.charAt(0).toUpperCase() + t.slice(1) : t; }
-  fetch('data/sample.json', {cache: 'no-store'}).then(function(r){ return r.ok ? r.json() : null; }).then(function(d){
-    if (!d || !d.items || !d.items.length) return;
-    var box = document.getElementById('free-items');
-    box.textContent = '';
-    d.items.slice(0, 3).forEach(function(it, i){
-      var a = mk('article', 'item rv in');
-      a.style.setProperty('--d', (i * 0.08) + 's');
-      var chips = mk('div', 'chips');
-      if (it.regulatory) chips.appendChild(mk('span', 'chip pk', 'Regulatory'));
-      (it.regions || []).slice(0, 2).forEach(function(r){ chips.appendChild(mk('span', 'chip lv', r)); });
-      if (it.borderline) chips.appendChild(mk('span', 'chip mn', 'Borderline'));
-      else if ((it.categories || [])[0]) chips.appendChild(mk('span', 'chip am', cap(it.categories[0])));
-      a.appendChild(chips);
-      a.appendChild(mk('h3', '', it.headline));
-      if (it.summary) a.appendChild(mk('p', '', it.summary));
-      a.appendChild(mk('span', 'src', (it.source || '') + (it.published ? ' · ' + fmt(it.published) : '')));
-      var u = safeUrl(it.url);
-      if (u) { var l = mk('a', '', 'Read the source'); l.href = u; l.target = '_blank'; l.rel = 'noopener noreferrer'; l.style.cssText = 'display:block;margin-top:10px;font-size:13px'; a.appendChild(l); }
-      box.appendChild(a);
+  // Region filter for the ingredients table
+  var btns=document.querySelectorAll('.filters button');
+  var rows=document.querySelectorAll('#ingtable tbody tr');
+  btns.forEach(function(b){
+    b.addEventListener('click',function(){
+      var f=b.getAttribute('data-f');
+      btns.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false');});
+      rows.forEach(function(r){
+        r.style.display=(f==='all'||r.getAttribute('data-region')===f)?'':'none';
+      });
     });
-  }).catch(function(){});
+  });
+  // Highlight the current section in the nav
+  var links=document.querySelectorAll('nav.rail a');
+  var map={};
+  links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a;});
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){
+          links.forEach(function(a){a.removeAttribute('aria-current');});
+          var a=map[e.target.id]; if(a){a.setAttribute('aria-current','true');}
+        }
+      });
+    },{rootMargin:'-20% 0px -70% 0px'});
+    document.querySelectorAll('main section').forEach(function(s){io.observe(s);});
+  }
 })();
 </script>
 </body>
