@@ -34,6 +34,15 @@ jobs:
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
         run: python -m scripts.build
 
+      - name: Email new items
+        continue-on-error: true
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python -m scripts.send_email
+
       - name: Save classification cache
         run: |
           git config user.name "briefing-bot"
