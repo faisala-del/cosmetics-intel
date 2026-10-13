@@ -29,7 +29,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "data" / "cache.json"
-BRIEFING = ROOT / "site" / "data" / "briefing.json"
+BRIEFING = ROOT / "data" / "briefing_full.json"
 
 ORDER = ["regulation", "ingredients", "pharma", "technology", "formulation", "company", "news", "market"]
 TITLES = {

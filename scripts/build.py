@@ -6,8 +6,9 @@
     (with no ANTHROPIC_API_KEY set, free mode is used automatically)
 
 Outputs:
-    site/data/briefing.json   items + digest shown on the website
-    site/data/stocks.json     price table
+    data/briefing_full.json   every item + digest (NOT published; used for the daily email)
+    site/data/sample.json     the three free-sample items shown on the public website
+    site/data/stocks.json     price table, only if publish_stocks: true in config.yaml
     data/cache.json           every item already classified (keeps costs low)
 """
 from __future__ import annotations
@@ -25,7 +26,8 @@ from scripts import classify, classify_rules, fetch, stocks
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "data" / "cache.json"
-OUT_BRIEFING = ROOT / "site" / "data" / "briefing.json"
+OUT_BRIEFING = ROOT / "data" / "briefing_full.json"
+OUT_SAMPLE = ROOT / "site" / "data" / "sample.json"
 OUT_STOCKS = ROOT / "site" / "data" / "stocks.json"
 
 
@@ -75,6 +77,16 @@ def gather(cfg: dict) -> tuple[list[dict], dict]:
     return fetch.dedupe(items), report
 
 
+def make_sample(live: list[dict], n: int = 3) -> dict:
+    """The free sample: newest regulatory items first, preferring items that carry a real summary."""
+    ranked = sorted(live, key=lambda x: (bool(x.get("regulatory")), x.get("confidence") == "high",
+                                         x["published"]), reverse=True)[:n]
+    keep = ("headline", "summary", "source", "published", "regions", "categories",
+            "regulatory", "borderline", "url")
+    return {"generated_at": fetch.now_utc().isoformat(),
+            "items": [{k: v.get(k) for k in keep} for v in ranked]}
+
+
 def print_report(report: dict) -> None:
     ok = {k: v for k, v in report.items() if "count" in v}
     bad = {k: v for k, v in report.items() if "error" in v}
@@ -99,7 +111,7 @@ def main() -> int:
     print(f"\n{len(items)} unique items after de-duplication")
 
     if args.check:
-        if not args.no_stocks:
+        if cfg.get("publish_stocks", False) and not args.no_stocks:
             _, errs = stocks.fetch_all(cfg["stocks"])
             print(f"\nTickers failing: {len(errs)}")
             for e in errs:
@@ -161,9 +173,11 @@ def main() -> int:
         "items": [{k: v.get(k) for k in keep} for v in live],
         "source_report": report,
     })
-    print(f"Wrote {len(live)} items to {OUT_BRIEFING.relative_to(ROOT)}")
+    print(f"Wrote {len(live)} items to {OUT_BRIEFING.relative_to(ROOT)} (not published)")
+    write_json(OUT_SAMPLE, make_sample(live))
+    print(f"Wrote free sample to {OUT_SAMPLE.relative_to(ROOT)}")
 
-    if not args.no_stocks:
+    if cfg.get("publish_stocks", False) and not args.no_stocks:
         print("Fetching stock prices...")
         prev = load_json(OUT_STOCKS, None)
         data, errs = stocks.fetch_all(cfg["stocks"], prev)

@@ -108,7 +108,7 @@ def classify_item(item: dict) -> dict:
     hint = item.get("section_hint", "news")
 
     relevant = origin == "pubmed" or _has(text, CORE) or bool(_found(text, COMPANIES)) \
-        or _has(text, STRONG_INGREDIENTS) or item.get("source") == "Federal Register"
+        or _has(text, STRONG_INGREDIENTS)
 
     regions = [r for r, words in REGION_WORDS.items() if _has(text, words)]
     if not regions:
