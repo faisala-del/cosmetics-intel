@@ -7243,5 +7243,144 @@
   "confidence": "low",
   "first_seen": "2026-10-13",
   "method": "rules"
+ },
+ "b63a11783be2": {
+  "id": "b63a11783be2",
+  "title": "Primark warning as Halloween decoration recalled due to asbestos risk",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeGtibXozb2RuNW1faWRxNGdYTFJ6V2F2Y2pPMEdwakYxQzl5X095alNXOHhxdTlsclZoOVVheVFZUV9yNG92dFgxMVB3WHA2RjMtQjdadXZZdUZ4NXNxaS1IakR5VEpacXJGS1g3ejRfaDBLUFFqMmZHTTFlY01FMU9hQXRidFdpemdUY25vRmtjTDgyckhnRzltS3lXTnhPUnZBbzk2V1JQeVJHR0FwOWRYWQ?oc=5",
+  "source": "Surrey Comet",
+  "published": "2026-10-07T08:37:08+00:00",
+  "snippet": "",
+  "region_hint": "UK",
+  "section_hint": "regulation",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "regulation",
+  "regions": [
+   "UK"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Primark warning as Halloween decoration recalled due to asbestos risk",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-13",
+  "method": "rules"
+ },
+ "30f2f672b971": {
+  "id": "30f2f672b971",
+  "title": "Minimalist’s Digital-First Skincare Business Model",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc0phaGtUNzNVdnU5OGhqbkE4dkV6R0c4VzNpbThBTGdYWEctbFJuQjFOSl9oZE9FdnBHV3RDVm1zeF8tMnJLeXkxNlZlc2VRVmxMTUJGVFExbUNpMG1peFpYUFFhR1UyZVRrWFhxUTdrUDJNc3FEZU11a002dlVRTl9BVWFUakJs?oc=5",
+  "source": "MarkHub24",
+  "published": "2026-10-11T03:41:19+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "market",
+  "regions": [
+   "India"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Minimalist’s Digital-First Skincare Business Model",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-13",
+  "method": "rules",
+  "emailed": true
+ },
+ "784670c20d95": {
+  "id": "784670c20d95",
+  "title": "Paramount and Warner Bros. to Merge into Skydance",
+  "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMmxjckszY3JKWW1rUEVGRnZqYzNFckpGTWx6bXpuYUxJNWZfRjJNeU8wNGljMFZUTGVJcFk4UnhnSXA3eFpVQV9nNnhQbFc2M2dwRGJ6TW1OZXF3cTNkQ3Z6RTA4cEQ2b1NSQzRodzI3MnFDU05NNm5lWDR2Y3FicE16MlhBRmM3OHpLQmloZw?oc=5",
+  "source": "Highlander Newspaper",
+  "published": "2026-10-12T09:00:52+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "news",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "news",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Paramount and Warner Bros. to Merge into Skydance",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-13",
+  "method": "rules"
+ },
+ "331a5f309816": {
+  "id": "331a5f309816",
+  "title": "Hindustan Unilever slides Thursday, still outperforms market",
+  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSWN3Qlk2MlhnSFJBSFBwSldPYzY3Y2pKemR3eE41SGV5aVJDZldfWF9KLUZrcXZiVkkyNnJRWGF6czI1QVlhWHNQZS1CdUVhQm1qajRJU29mLXowN2NnaGdod0pVTDY0OHExVWNQSDF6Qjgtc0tIRXB6dVhZNGJ1VGFrOFRtQ1A5QktoRVhaS212WlNKQ3VaaDkyUEVPcHVqVWpER0drTGJWMzVydEE2bmlTYjhtaHZEVU81SDBOam96V3JheFQ0c19XejFISThRYURF?oc=5",
+  "source": "MarketWatch",
+  "published": "2026-10-08T10:32:00+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "company",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "company",
+  "regions": [
+   "India"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Hindustan Unilever slides Thursday, still outperforms market",
+  "summary": "",
+  "ingredients": [],
+  "companies": [
+   "Unilever",
+   "Hindustan Unilever"
+  ],
+  "confidence": "low",
+  "first_seen": "2026-10-13",
+  "method": "rules",
+  "emailed": true
+ },
+ "c917ff3263e7": {
+  "id": "c917ff3263e7",
+  "title": "Hair straightening: Why some countries have taken strict action against Keratin hair treatments",
+  "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPV003QVVLWDliVGoxbUxIM0U2aWROR1poX2pJOVh3MW9iWnByc1dsZTlPWjg2bm5tTVlKNDRwZGp2VVdSeVNkdFNlcHNoS1BDc3JOVTB3VUU2cGN2a2N2aHdaWXBNaWNST2VabU5FUDNLdEQ1WHd4VGY2YkFLcE4xMC1YWWY4UWprd3phUzZTeEdWRFNGbVhUNDNib0JDdlpYMFNPbURPa2dMNngzVnhNSEVKSDNGQWdrS25Mc3BCMDlsTVNBX2FtcGkyaHViU0JFQ1NpYWFDTU9sVDJhOFc3QmhvVEd6ZXJ1U0FCRTdISzc2ZXBTR3dpUFlfSEh3NjlV0gGGAkFVX3lxTE1uYzR0Y1pwNE5vbGZJUXlCbTZxSnJSbll3cGwtcm10eDBLdExiSjZkejVNdUt5aDJ6NGVYbEJ2QVdkUXBmOFp1RUt5TlI5eGs2Qi1Gd0dPSUVSSjE5WFBqWUxDYWNRaFZQc2gyRC1ZSDB3X0dwS2pVdXBMVTA5Z0lwR2RKNnVDUHA2WU5aTXdCU2IxT21aZllieDc1LU5NSTV6VDdWeHM2TmllcE9Ea0NPUFNxM1FBam1LajBwYmxCdl9fbE0xbkhEeWV4cjhRYzc4ODFodEhoTGxEOWtHNnBkcjRMMG04U1BPbGhDZTRMMGNHbDRQT1plMGM0X1duQkF5ZGpkUnc?oc=5",
+  "source": "The Times of India",
+  "published": "2026-10-13T07:58:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "ingredients",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "ingredients",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "hair care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Hair straightening: Why some countries have taken strict action against Keratin hair treatments",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-13",
+  "method": "rules"
  }
 }
