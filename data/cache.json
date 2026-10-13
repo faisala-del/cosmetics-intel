@@ -130,7 +130,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "03df8f54de85": {
   "id": "03df8f54de85",
@@ -156,7 +157,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "e10909db7d01": {
   "id": "e10909db7d01",
@@ -262,7 +264,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "0ec079f2fcdb": {
   "id": "0ec079f2fcdb",
@@ -340,7 +343,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "f94b610a943b": {
   "id": "f94b610a943b",
@@ -446,7 +450,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "4319902b632c": {
   "id": "4319902b632c",
@@ -498,7 +503,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "34bb59112fa3": {
   "id": "34bb59112fa3",
@@ -638,7 +644,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "e3cf8da4bff8": {
   "id": "e3cf8da4bff8",
@@ -668,7 +675,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "d1743b185a41": {
   "id": "d1743b185a41",
@@ -836,7 +844,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "76c09e9b6d3d": {
   "id": "76c09e9b6d3d",
@@ -862,7 +871,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "3e397ee907e1": {
   "id": "3e397ee907e1",
@@ -970,7 +980,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "b02a3df7e142": {
   "id": "b02a3df7e142",
@@ -1074,7 +1085,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "962f35443134": {
   "id": "962f35443134",
@@ -1128,7 +1140,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "081331dae978": {
   "id": "081331dae978",
@@ -1182,7 +1195,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "c6696ad18e68": {
   "id": "c6696ad18e68",
@@ -1448,7 +1462,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "41446ff39796": {
   "id": "41446ff39796",
@@ -1609,7 +1624,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "8b5988eac791": {
   "id": "8b5988eac791",
@@ -1635,7 +1651,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "e6b9033f87f8": {
   "id": "e6b9033f87f8",
@@ -1661,7 +1678,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "27b4adfb76d9": {
   "id": "27b4adfb76d9",
@@ -1744,7 +1762,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "dfa7366670f2": {
   "id": "dfa7366670f2",
@@ -1770,7 +1789,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "7341d46a26cc": {
   "id": "7341d46a26cc",
@@ -1851,7 +1871,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "8e17937dcb17": {
   "id": "8e17937dcb17",
@@ -1903,7 +1924,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "cc6957e0eee4": {
   "id": "cc6957e0eee4",
@@ -2040,7 +2062,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "ba326a2831c0": {
   "id": "ba326a2831c0",
@@ -2118,7 +2141,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "36461d849766": {
   "id": "36461d849766",
@@ -2304,7 +2328,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "acc60263588d": {
   "id": "acc60263588d",
@@ -2332,7 +2357,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "853780c0be29": {
   "id": "853780c0be29",
@@ -2388,7 +2414,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "683ad52f5845": {
   "id": "683ad52f5845",
@@ -2576,7 +2603,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "e3e20f7b288f": {
   "id": "e3e20f7b288f",
@@ -2604,7 +2632,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "207fc60f2c99": {
   "id": "207fc60f2c99",
@@ -2634,7 +2663,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "5d8ecd6a3ffd": {
   "id": "5d8ecd6a3ffd",
@@ -2690,7 +2720,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "50c8faf3082d": {
   "id": "50c8faf3082d",
@@ -2718,7 +2749,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "752f589521b4": {
   "id": "752f589521b4",
@@ -2774,7 +2806,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "7969058343b8": {
   "id": "7969058343b8",
@@ -2803,7 +2836,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "15a7c268618f": {
   "id": "15a7c268618f",
@@ -2831,7 +2865,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "4337ea6c1663": {
   "id": "4337ea6c1663",
@@ -2857,7 +2892,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "7e3564ba009a": {
   "id": "7e3564ba009a",
@@ -2913,7 +2949,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "124094932b5c": {
   "id": "124094932b5c",
@@ -2969,7 +3006,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "8cde18dbc034": {
   "id": "8cde18dbc034",
@@ -2997,7 +3035,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "dd604905a171": {
   "id": "dd604905a171",
@@ -3053,7 +3092,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "3dee9bb63690": {
   "id": "3dee9bb63690",
@@ -3136,7 +3176,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "e3976ec2a9de": {
   "id": "e3976ec2a9de",
@@ -3165,7 +3206,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "c68fe727bcfd": {
   "id": "c68fe727bcfd",
@@ -3220,7 +3262,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "85cd74e9d491": {
   "id": "85cd74e9d491",
@@ -3249,7 +3292,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "8b0128b05469": {
   "id": "8b0128b05469",
@@ -3333,7 +3377,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "1237a54fd2f1": {
   "id": "1237a54fd2f1",
@@ -3414,7 +3459,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "e266a5a2bcbb": {
   "id": "e266a5a2bcbb",
@@ -3443,7 +3489,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "7a7d8344dc8d": {
   "id": "7a7d8344dc8d",
@@ -3472,7 +3519,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "64e587c2a2c7": {
   "id": "64e587c2a2c7",
@@ -3580,7 +3628,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "744fcb5afd78": {
   "id": "744fcb5afd78",
@@ -3714,7 +3763,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "e72d9efd8bc1": {
   "id": "e72d9efd8bc1",
@@ -3850,7 +3900,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "fa0f9c3be6da": {
   "id": "fa0f9c3be6da",
@@ -3878,7 +3929,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "3f22d3ed06c7": {
   "id": "3f22d3ed06c7",
@@ -3930,7 +3982,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "db35ae0b2879": {
   "id": "db35ae0b2879",
@@ -4244,7 +4297,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "870b50e1d9a0": {
   "id": "870b50e1d9a0",
@@ -4272,7 +4326,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "a2b8f882987c": {
   "id": "a2b8f882987c",
@@ -4298,7 +4353,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "4adeb85bb15b": {
   "id": "4adeb85bb15b",
@@ -4354,7 +4410,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "74bbc5d2119c": {
   "id": "74bbc5d2119c",
@@ -4436,7 +4493,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "f991ebf49562": {
   "id": "f991ebf49562",
@@ -4570,7 +4628,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "597f32f613f5": {
   "id": "597f32f613f5",
@@ -4598,7 +4657,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "63997dbcb392": {
   "id": "63997dbcb392",
@@ -4680,7 +4740,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "6a4640a6246e": {
   "id": "6a4640a6246e",
@@ -4764,7 +4825,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "22f4a6c5121b": {
   "id": "22f4a6c5121b",
@@ -4844,7 +4906,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "f3da73a2e2db": {
   "id": "f3da73a2e2db",
@@ -5150,7 +5213,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "438eca448de8": {
   "id": "438eca448de8",
@@ -5178,7 +5242,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "bcf2913402ad": {
   "id": "bcf2913402ad",
@@ -5263,7 +5328,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "e9a4e687a55d": {
   "id": "e9a4e687a55d",
@@ -5319,7 +5385,8 @@
   "companies": [],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "d39ca026b179": {
   "id": "d39ca026b179",
@@ -6170,7 +6237,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "9419362a528b": {
   "id": "9419362a528b",
@@ -6227,7 +6295,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "984e187e9b42": {
   "id": "984e187e9b42",
@@ -6547,7 +6616,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "62928450b67b": {
   "id": "62928450b67b",
@@ -6573,7 +6643,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "edcc1f50e161": {
   "id": "edcc1f50e161",
@@ -6599,7 +6670,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "b313234d7ea8": {
   "id": "b313234d7ea8",
@@ -6625,7 +6697,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "11da3cb2ccc3": {
   "id": "11da3cb2ccc3",
@@ -6651,7 +6724,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "c2429b56a643": {
   "id": "c2429b56a643",
@@ -6677,7 +6751,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "a196a4545c4d": {
   "id": "a196a4545c4d",
@@ -6703,7 +6778,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "e4d814f8701f": {
   "id": "e4d814f8701f",
@@ -6729,7 +6805,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "d52492f73f3d": {
   "id": "d52492f73f3d",
@@ -6755,7 +6832,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "b4322f0ab0f0": {
   "id": "b4322f0ab0f0",
@@ -6781,7 +6859,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "8d9fa8fa8180": {
   "id": "8d9fa8fa8180",
@@ -6807,7 +6886,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "800017b3fab0": {
   "id": "800017b3fab0",
@@ -6837,7 +6917,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "879d1a379da4": {
   "id": "879d1a379da4",
@@ -6921,7 +7002,8 @@
   ],
   "confidence": "low",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "4ca316bb52c4": {
   "id": "4ca316bb52c4",
@@ -6947,7 +7029,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "0dab6ff9a9ae": {
   "id": "0dab6ff9a9ae",
@@ -6973,7 +7056,8 @@
   "companies": [],
   "confidence": "high",
   "first_seen": "2026-10-13",
-  "method": "rules"
+  "method": "rules",
+  "emailed": true
  },
  "b2063cf46720": {
   "id": "b2063cf46720",
@@ -7102,6 +7186,61 @@
   "ingredients": [],
   "companies": [],
   "confidence": "high",
+  "first_seen": "2026-10-13",
+  "method": "rules"
+ },
+ "c37a48cf4c80": {
+  "id": "c37a48cf4c80",
+  "title": "Fairfax and Wittington Investments Agree US$8.9 Billion Boots Acquisition",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR2d2T01oalA0MDlxVkZLa2s2S0RRQ0NKZ1pSaWgxOGZKa3NsQ3BSSFJTOVBhMGItUEpaRDFKTE4yUzVmQ0ZFMDhGLUx4ZENtekc2M2hjRnRsYTVWdmJ2bXpXNkJ5Y0JhNkU3eFNCLXlUUXlYNzBNc2NqekEwT2RkSDNabDVtckxRYUlhemFXVlh5ZDd3czFnTXVKWFhYMWxxWmRnbGpJbVQyZVM0Q0E?oc=5",
+  "source": "Global Cosmetics News",
+  "published": "2026-10-08T05:02:42+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "news",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "news",
+  "regions": [
+   "US"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Fairfax and Wittington Investments Agree US$8.9 Billion Boots Acquisition",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-13",
+  "method": "rules"
+ },
+ "743e0415a4b8": {
+  "id": "743e0415a4b8",
+  "title": "Nykaa, Honasa, Trent: Q2 trends show consumers opening up their wallets ahead of festive season",
+  "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOaEZqQWh1LWozQmJnOS1QaEtBcDhFVUdyYXlLd1hjd2stT3ZDZ0J2TnoxeUFCcjI1cVVkMTE0VERiQnVNeHF2R2dpSUE5X3AxVk1JSzVGd3FqQjFXdlJRU3ZNVHBOMnNyMHdUTDgyYVcxM0dqMlFkaUZlT0l4SE00VGR5eEo2WXVWcVl1Ym1hRnd3UUNzbFF4VFR5Mm5CZWtFVDZyMVlZUTFndnNzWm02NGdtTUQzcElWN2M5SW9xbWh0NEJCSmxyd203T0FuZWpGWElWbnBhT3lobXBJVHF4ei1UZEhZUQ?oc=5",
+  "source": "Upstox",
+  "published": "2026-10-06T06:44:06+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "company",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "company",
+  "regions": [
+   "India"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Nykaa, Honasa, Trent: Q2 trends show consumers opening up their wallets ahead of festive season",
+  "summary": "",
+  "ingredients": [],
+  "companies": [
+   "Nykaa",
+   "Honasa"
+  ],
+  "confidence": "low",
   "first_seen": "2026-10-13",
   "method": "rules"
  }
