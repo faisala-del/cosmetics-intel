@@ -12348,5 +12348,542 @@
   "confidence": "high",
   "first_seen": "2026-10-17",
   "method": "rules"
+ },
+ "8809ba61507b": {
+  "id": "8809ba61507b",
+  "title": "Ohio PFAS Ban Bill HB 272 Targets Cookware, Cosmetics",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOEh0dlhmZkowSGRYeDVjMzRDZWxYRXdZNVF4RE9GaGZRZnQtdXdFSlhDYUVObjNBbHhMc1U2ekJqemNTbm9mTS15S193MVM1S1JGM0dpcGl1LUJ1RDI4WjlIZVhYcUdQYXhfSHI1VDdHYW16cVZVOHE5N2xMT1Z4YnpOM0VUVU9aNWpNYXpKWGprZ3ZXNkR2UmJBbGQ?oc=5",
+  "source": "Hoodline",
+  "published": "2026-10-07T18:09:44+00:00",
+  "snippet": "",
+  "region_hint": "US",
+  "section_hint": "regulation",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "regulation",
+  "regions": [
+   "US"
+  ],
+  "categories": [],
+  "regulatory": true,
+  "borderline": false,
+  "headline": "Ohio PFAS Ban Bill HB 272 Targets Cookware, Cosmetics",
+  "summary": "",
+  "ingredients": [
+   "PFAS"
+  ],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules"
+ },
+ "d500a407018e": {
+  "id": "d500a407018e",
+  "title": "PFAS restrictions in footwear, clothing and cosmetics come into force in EU",
+  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaklsai14S094MTRNOG5qaUVQLXVza0ZjMzJpS1JoNmlFMGg0Njc3cktVUUFET21PUEZyS2g3U1RVbHFrT3BhUHc1TWQ0XzVUX2U0WDZWUEFuZXVSSTM5UFRBMnI1R0Ytd3NRd0gySDkzTktKWm1KMEtaUEJvRXhHTmZiY042bFBHM214SE0yTzdxODFiUWwzQjBYdDBJYnJ5Z1NCY0xtX1k3c0dJVC0ycXI0TEowSHUz?oc=5",
+  "source": "Pinsent Masons",
+  "published": "2026-10-15T14:37:38+00:00",
+  "snippet": "",
+  "region_hint": "US",
+  "section_hint": "regulation",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "regulation",
+  "regions": [
+   "EU"
+  ],
+  "categories": [],
+  "regulatory": true,
+  "borderline": false,
+  "headline": "PFAS restrictions in footwear, clothing and cosmetics come into force in EU",
+  "summary": "",
+  "ingredients": [
+   "PFAS"
+  ],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "73e412d7f8d1": {
+  "id": "73e412d7f8d1",
+  "title": "EcoWaste Coalition Welcomes Successive FDA Advisories on Unauthorized Skin Lightening Products that Pose Mercury Exposure Risk",
+  "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQT09fdlp1dVNtWDJDZGtIQzlMVWhoODJJNzB3eTAtdDlVSWxKM1RRbmVZcEYtVUNJZXUxVFlERzJPWmw0bXdudkZOTWNFRzRYcHZMaUlBeFY2N0locHFvUTJQWUUyVEtkT3hRenBIalpKY0tjZkJuS1VPUlpfVVVsYXhxSFlOdDlJNEJNQk9sVWFzZUZCZVpIaUFBUkJZdUFhWFIyRjg5YXZfa2dFQzRJVXRoTTd5VkI4TkJ3THRzQktrc1BNeWdieGNyZGNRQTYxWklqcjE5VXRSVnJNVkhMblAwS08welA0dWxKVnV0VXlQRVE?oc=5",
+  "source": "Pressenza - International Press Agency",
+  "published": "2026-10-07T07:31:26+00:00",
+  "snippet": "",
+  "region_hint": "Singapore",
+  "section_hint": "regulation",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "regulation",
+  "regions": [
+   "US"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "EcoWaste Coalition Welcomes Successive FDA Advisories on Unauthorized Skin Lightening Products that Pose Mercury Exposure Risk",
+  "summary": "",
+  "ingredients": [
+   "mercury"
+  ],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules"
+ },
+ "374bc482edf2": {
+  "id": "374bc482edf2",
+  "title": "Careful Supplier Selection Plays a Key Role in Powder Blush Sourcing",
+  "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQOEZkSGlIWWtYVjgzdHZHWFFnUW5iSkowX2tsTGVZV2xZQmw4Z2tBQkREaGVaZzhRelJjeXJxREl2MWFnVzhfNkRNNDhGYXNvMEZRV01LRFZmSW81MVRPcWwzR3ZYS0pnR1l2NzNaZ0Yyd2tIMkdZMkpRMjd5UmNXa3gxMkRIdElBbzVNTGg4dG5fSU84TVhlcDdhbjdRMk9KbzJhV3hwdkZ4a1R0dXBhbUtEOGFabGJOUDB2WTV6T1AtNlJQcVViR2Nrb2dvNGd5WHNTUFFfZmhxazgyRHlKNEtaQy1ncHVheERWSUFkbk5DVXhsa052VkE4dk1XR1U?oc=5",
+  "source": "WBOC TV",
+  "published": "2026-10-17T00:30:03+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "market",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Careful Supplier Selection Plays a Key Role in Powder Blush Sourcing",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules"
+ },
+ "742b91c7da70": {
+  "id": "742b91c7da70",
+  "title": "Ag Marketing Shifts as AI Adoption Hits 17%, Payment Stalls at 4%",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFRiVzlxQjBLNF9KNkxGVjF2NXk5R2wtcDVqSS1YcURQQV9OV19pbDdULVBaVmxkREVTcHpkTnRmdF9FQS1nb2c0cm9JZjVENzE5YzI2c05DTGRnaF91TnB3SXo3clFzMktnRXdxZXEwMG5kV2JxbW52bEU3WFFMQTB5NWF0WmdKdC0tcW9GUkQ0ajc3SlAxWTNHTnFMa0NweU10WHdrNlpUcUhpZzlWU0NWTWpuUWM?oc=5",
+  "source": "Carroll County Mirror-Democrat",
+  "published": "2026-10-17T08:20:02+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "market",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Ag Marketing Shifts as AI Adoption Hits 17%, Payment Stalls at 4%",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules"
+ },
+ "704806aa5130": {
+  "id": "704806aa5130",
+  "title": "Estée Lauder Companies unveils finalists of BEAUTY&YOU India 2026",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaDlidmM0QURsd01ZcFlDUWo1TEI5SFVVdE5haXAxMDB4c2NzQ25CSEpjcnQxMWVUV3VtVzRSeGgyUTZNTTZwWHZhRS1rUzJtbVBQTU0wMTZUa3d1UjQ3ZDEwRFUxMW5nMVdEQTZnQmRJXzE2R0tRdGJxZTdld0ZLOXUtOFVvTzJhVWxPZy1OSkZ1cmdrX20yeTdYVQ?oc=5",
+  "source": "Cosmetics Business",
+  "published": "2026-10-12T10:43:09+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "market",
+  "regions": [
+   "India"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Estée Lauder Companies unveils finalists of BEAUTY&YOU India 2026",
+  "summary": "",
+  "ingredients": [],
+  "companies": [
+   "Estée Lauder"
+  ],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "f24693345e37": {
+  "id": "f24693345e37",
+  "title": "Mary Kay Launches K-Beauty Skincare Collection Across 40 Markets",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQODhpRjBCYkNnODlMNk5vSFhUQXJIekx2LTFtR3Myd2EzOEhTbkpveFVwd1lwSkxfSFgzUXdlQUxYa3RuaG14Ny1ZeVRLdjJ3Rk1obFd2ZUJwNldiS3paa0s0SVhhUFZjaU9VcVdYVGk1Rkl1ZDdZdnFBc0dXYUZJSHplX2s4eDlsV2ExcUY2N0lHTWg0ZEd3X204X3ZaY2dPTmZv?oc=5",
+  "source": "Global Cosmetics News",
+  "published": "2026-10-06T07:00:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "market",
+  "regions": [
+   "Korea"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Mary Kay Launches K-Beauty Skincare Collection Across 40 Markets",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules"
+ },
+ "d2990987cbab": {
+  "id": "d2990987cbab",
+  "title": "[INTERVIEW] How Mediheal is evolving beyond sheet masks",
+  "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNWhWWmFVRFRrQ0RCSkdsWXEwbDI2cnczbU1kb2hXdWRIYkVYYnU3OWhaT01nOE4xeXEtM282UXFDX1hKM1Y0NnBtM1BTc19FMTB0ZE1TZGFkT3VkOEFvbU10Uk9sWlhjb1o0VUEySUhvWVl4cF94TWNpWXBiMVdFbkZZSzJHT3NZUVo1di1UOElIamN1TTJSdjZieWU1ekRSbFHSAacBQVVfeXFMTkNZdHd4UTBjNzZtdHdYaDA4RFFWLWRTMDdOMUFtd1RldTJSXzFHTWVZbFpVRm1OcXBQWEFwZHc0WUZXRHRRTmY2QUdmbmVjNk9LZG5MS0NmWnlNQWNscWkxaktBUUlyM2lZcmlfN0p4SnRhUFJYQXRUS3FSZkY5cFhvUTl6a0NiMkNBRkNvN2RCUmc3ZFlKOU9FeklBUlpHUmZjVGZIbWM?oc=5",
+  "source": "The Korea Times",
+  "published": "2026-10-14T22:00:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "market",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "[INTERVIEW] How Mediheal is evolving beyond sheet masks",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules"
+ },
+ "e3554ccc77da": {
+  "id": "e3554ccc77da",
+  "title": "e.l.f. Beauty (ELF) Stock May Look Reasonable Following The Rhode Acquisition",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORFZCRFo1MFN4eTdxOHZweUZ0M3BCU0htNm9UZkJHTnAxdWZMbERVTVlEZV90VEs5WGl6dU9TX0hTZU9VSVFHSHZQQTQtQVFpUlN0NEZ6NW1hbThZdGZrQXpkYTgxVHJhcEEtMms0enBydnNib213VTVJWVJwYVU3R3dITHlkUHN4?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-17T05:18:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "news",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "news",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "e.l.f. Beauty (ELF) Stock May Look Reasonable Following The Rhode Acquisition",
+  "summary": "",
+  "ingredients": [],
+  "companies": [
+   "e.l.f."
+  ],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "6d81594cc3f5": {
+  "id": "6d81594cc3f5",
+  "title": "Hindustan Unilever schedules October 28 results for Hindustan Unilever stock",
+  "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORkRoMklUZU1iM2xualJwRTZ5emNkR3BNY0hTTVV5cXZ3VGNMM0tjdncySWJMejEyRmNjSDVtTXhjRGt4eDNkc1dOVURoaGhCVzE1R0NHZV9US1l6Mk5VSXY5di14ZmVSdVF3OFRFZ01uNkozeXZySUg2bTJKSUtmdG1rckM3cmNCamg4VmxyeWJ5ei1oTVlSXy10MjlMTGF5ZnhwdXhoR0FBY1dwY0NXZVBRMFpoei1GYXA5U1dkN1lvMXktbkJvSk1JTU8xZ09EWkgxMHRB?oc=5",
+  "source": "ad-hoc-news.de",
+  "published": "2026-10-16T08:52:50+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "company",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "company",
+  "regions": [
+   "India"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Hindustan Unilever schedules October 28 results for Hindustan Unilever stock",
+  "summary": "",
+  "ingredients": [],
+  "companies": [
+   "Unilever",
+   "Hindustan Unilever"
+  ],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "d900b1d578d0": {
+  "id": "d900b1d578d0",
+  "title": "Did LG Chem's Fall Catch You Out? What Investors Missed",
+  "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0xfWUNnYUh1aTk5UFBDWXZUaUNIUXpkZExGOGpWMExjQ1lkYlJSS2dHaVFiNVh6MGt4ek1BX1BadkFJMFRKVk16ZGlmeXlrVlRjWVZ6MTYtMXdRNDZuOVh4bnY0WmFaSnF3Rl9GdUVfRFNSbk5vNXQ1SDZHajR5RkNiMVhjSDBZZDhNX2Z1d3NSUQ?oc=5",
+  "source": "Yahoo Finance",
+  "published": "2026-10-18T00:17:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "company",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "company",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Did LG Chem's Fall Catch You Out? What Investors Missed",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules"
+ },
+ "8da4a6be35e0": {
+  "id": "8da4a6be35e0",
+  "title": "BASF SE (BASFY) Stock Price, News, Quote & History",
+  "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aZlhVWFZfR0VoZjFYM184M19CMzl3Yjl2ZGN6Mm1xX0JyRUhFTjVxUDZMYkxfWUNTUE4tNHN2N2s3YUhDbDFMWWR2YTFDMERHdVNr?oc=5",
+  "source": "Yahoo! Finance Canada",
+  "published": "2026-10-15T10:15:39+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "company",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "company",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "BASF SE (BASFY) Stock Price, News, Quote & History",
+  "summary": "",
+  "ingredients": [],
+  "companies": [
+   "BASF"
+  ],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "b83096f1881d": {
+  "id": "b83096f1881d",
+  "title": "What Is an AI Skincare Analyzer App & How Does It Work",
+  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeV9qMFFkLUY3eTVscm1MMjI5YmNZTmlBVG5jbjVHaHJHb0JrR1I4Q1dVdnpOd281bTNuOGU1MERkVWNHOHVwa2RPcjBOS3B4aTM2RUhiM1lvOVQtdE1rWGRMQ2kweHdubG5YS2RtUWpSTS1HYlBXekdxbDE4QzhvTzRBZU1jMXJoeDBfdksybGdUSU0?oc=5",
+  "source": "www.perfectcorp.com",
+  "published": "2026-10-14T07:00:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "What Is an AI Skincare Analyzer App & How Does It Work",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "7e5d5db3a92f": {
+  "id": "7e5d5db3a92f",
+  "title": "What Is Beauty Tech - The Complete Guide 2027",
+  "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVWg5dmctLWUwWDFTVnc4MEZZalhYdG9DSmtJUXpBeGpNOEVQeHI2Q3dOLTk2c2s3NHNmWmRXb0RZeUdHaG5qZTRkX2ZmeTBMM1I1eVdIWUlOdWZTM2FXQWxmWF9wUWZLWnhlN2NEa0RxcTcxdHJuLTh5UnZxVE1YWWVPeGhkbnk3S2VB?oc=5",
+  "source": "www.perfectcorp.com",
+  "published": "2026-10-14T07:00:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "What Is Beauty Tech - The Complete Guide 2027",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "334e13149400": {
+  "id": "334e13149400",
+  "title": "New Sunscreen Filter Hits U.S. Shelves As Texas Melanoma Rises",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSXZ5UTBJVVdtOWRIREdkcUdfVkhLQjZLY1d4MWp3SzdVemxqRXdmZlpCb3I4d2NQVXlhYmpoM1ZVUGxnWFlJdG4wcWtGclJwUjZicFNpRzVCT09weWxkZVN1dHNjV0FUUGJtVjVUOFRKRUJ0YUlBQW40eGtnd01pNlBBbUZIYy03SXZkcDNsZnY5QnhFSkdUM1RSZw?oc=5",
+  "source": "Dallas Express",
+  "published": "2026-10-17T11:05:56+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "ingredients",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "ingredients",
+  "regions": [
+   "US"
+  ],
+  "categories": [
+   "sun care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "New Sunscreen Filter Hits U.S. Shelves As Texas Melanoma Rises",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "71f7413cac1b": {
+  "id": "71f7413cac1b",
+  "title": "FDA Advisory No.2026-1596 || Public Health Warning Against the Purchase and Use of the Unauthorized Cosmetic Product “SADOER RETINOL REPAIR ESSENCE” - Food and Drug Administration",
+  "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNcjJnSkRPYmVDVHZIcTFuSUxVVEtmeEZyVUkzZ3RSN2JDQU1qZDJqZDVKT2hEajdZYm9ISzJoT0I5SlFzNnRUVVNmOVprUXlYcUJpdFFhNEhZYm5hSkVCZnh0eUdUM19ZaTNpRGVNMVB1d0lnLVhjOFdTS3hyQzY3N0JGaGZ5RlhEM3NxYlFWQ1pKM1NOVEhPQnZBbXZfbWx6ZVRWLXVZbWhITGo1ZUotLXplR3M0QTU3Q0ZYekphNHg0VWljSTM3bHMxUlJVdXZCMUVsSnNSTUxOZE1zaWlqcmRKaWU2TFlPd3psVDUxR2x1dGM3VmZKZmpjaw?oc=5",
+  "source": "https://www.fda.gov.ph/",
+  "published": "2026-10-17T03:50:14+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "ingredients",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "ingredients",
+  "regions": [
+   "US"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": true,
+  "borderline": false,
+  "headline": "FDA Advisory No.2026-1596 || Public Health Warning Against the Purchase and Use of the Unauthorized Cosmetic Product “SADOER RETINOL REPAIR ",
+  "summary": "",
+  "ingredients": [
+   "retinol"
+  ],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "ce486d8d4af8": {
+  "id": "ce486d8d4af8",
+  "title": "Serums Are No Longer Just for Your Face. New Formulas Promise to Repair Your Scalp and Tooth Enamel",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWHU5aGh5V19qczJOOTRHUHFEZDIxQ2lwTHpkUGZ1UFUzcWxDWlVEbW9ZMGlLOEdMX3lRWVdNQzFUVnZwTEJybnFqbktXN1FpbGRHZ0hFLWNneVY4cnhGdzJMZGEtRGk3czU5Q09DcnhkbnpNeWNTdFBOMXFWdWQ0T0hwbjMzS0xhd1p3SkR0LTR5anJQekNzMFhGbThBeElpNFhIR083dkVjNUxRSnZmQXdOVQ?oc=5",
+  "source": "Woman's World",
+  "published": "2026-10-15T21:00:46+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "ingredients",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "ingredients",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care",
+   "hair care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Serums Are No Longer Just for Your Face. New Formulas Promise to Repair Your Scalp and Tooth Enamel",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
+ },
+ "916fbfb172a0": {
+  "id": "916fbfb172a0",
+  "title": "Characterization of copper tripeptide-loaded lipid carriers and their stability in complex cosmetic matrices.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42887096/",
+  "source": "Journal of chromatography. A",
+  "published": "2026-10-10T00:00:00+00:00",
+  "snippet": "GHK-Cu is a tripeptide-copper complex composed of glycine-L-histidine-L-lysine coordinated with Cu²⁺ ions. Owing to its regenerative and antiaging properties, it is widely incorporated as an active ingredient in cosmetic formulations. Nevertheless, its pronounced hydrophilicity limits its ability to penetrate deeper layers of the skin. One potential strategy to overcome this limitation is the application of liposomal carriers. Encapsulating the GHK-Cu complex in liposomes may enhance its transdermal delivery efficiency while reducing the effective concentration of the copper tripeptide in the final formulation, thereby lowering production costs. The objective of the present study was to eval",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Characterization of copper tripeptide-loaded lipid carriers and their stability in complex cosmetic matrices.",
+  "summary": "GHK-Cu is a tripeptide-copper complex composed of glycine-L-histidine-L-lysine coordinated with Cu²⁺ ions. Owing to its regenerative and antiaging properties, it is widely incorporated as an active ingredient in cosmetic formulations. Nevertheless, its pronounced hydrophilicity limits…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-10-18",
+  "method": "rules"
+ },
+ "aa355f85d032": {
+  "id": "aa355f85d032",
+  "title": "Optimized production of polyhydroxyalkanoates from Priestia megaterium using sugar beet molasses: a cost-effective approach for eco-friendly bioplastics.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42888383/",
+  "source": "Environmental science and pollution research international",
+  "published": "2026-10-16T00:00:00+00:00",
+  "snippet": "Polyhydroxyalkanoates (PHAs), eco-friendly microbial bioplastics, have the potential to replace synthetic plastics, reducing pollution. The novelty of this study lies in the integration of cost‑effective substrate utilization, systematic optimization, and preliminary evaluation of multifunctional properties of PHA. Therefore, this study assessed 29 bacterial isolates for PHA production utilizing sugar beet molasses (SBM) as an inexpensive carbon source. Among the tested isolates, the strain SNS1 exhibited the highest PHA production and was genetically identified as Priestia megaterium. An optimization process and a Plackett-Burman design were applied to determine the conditions for maximum P",
+  "region_hint": "Global",
+  "section_hint": "ingredients",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "ingredients",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Optimized production of polyhydroxyalkanoates from Priestia megaterium using sugar beet molasses: a cost-effective approach for eco-friendly",
+  "summary": "Polyhydroxyalkanoates (PHAs), eco-friendly microbial bioplastics, have the potential to replace synthetic plastics, reducing pollution. The novelty of this study lies in the integration of cost‑effective substrate utilization, systematic optimization, and preliminary evaluation of multifunctional properties…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-10-18",
+  "method": "rules",
+  "emailed": true
  }
 }
