@@ -1,4 +1,5 @@
-# Cosmetics Intelligence Briefing: auto-refreshing website
+# FASERA
+Cosme Pharma 
 
 One website covering market, ingredients, technology, formulation, deals, company results, stocks, regional regulation and the pharma/cosmetics boundary. It rebuilds itself every day.
 
