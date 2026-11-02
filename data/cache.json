@@ -28149,5 +28149,944 @@
   "confidence": "high",
   "first_seen": "2026-11-01",
   "method": "rules"
+ },
+ "c24a9504ada3": {
+  "id": "c24a9504ada3",
+  "title": "CDSCO cancels import licence of Korean cosmetic FatX over misleading 'fat-dissolving' claim",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNR3RuQllkaGEzRDJValpfd0lpbmhzd1hqd0swSGFMXzhnWmk4bUsyYTMyeTNOakkxWmtLcEE5RFNqRXF2WVlJVERSQWFQd0xmS28yYWNuRmVxelhOelhIQjF2dGZIeUtyVzBCTXJyTDRDVFJpa0pETlQ4cEFlWEd4U2lzU1JiY3BGZkdJRWtNOGlBbUxaM2lnTU9oYUlZMFRQczR0TVZUWEFiR3BScUJGeEZLSFRYejAzN044RWRVMmwwZHBIWjl4c3B2cV_SAdIBQVVfeXFMUHo3cXBubDJTRTIxbHloVERfTHlTV3dLWTY3d2RQeHRfY1BHMWxTQjVSd2NsWHlfT085bDBHbHp5cGd3X2pNUU1KYk0wR3J5SGxOT3RmMENpZFN5WUVOSUsxMGF0QjRYQTVBa1M3YTV0Y2RqVVlfVUtHbmxpOHhYVmlZZ0xoOGZaMTlJeS1QVGNWQmxBaGtiX2IyNmx6cXdmaWZXWm04TnpCMDVMOHNhMDkwRnRsamlsVnVhd3JKVWRBSlJJYkpuX2N5NDJIODdQZ0N3?oc=5",
+  "source": "Livemint",
+  "published": "2026-11-02T00:30:27+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "regulation",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "regulation",
+  "regions": [
+   "India",
+   "Korea"
+  ],
+  "categories": [],
+  "regulatory": true,
+  "borderline": false,
+  "headline": "CDSCO cancels import licence of Korean cosmetic FatX over misleading 'fat-dissolving' claim",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "451921ad2d64": {
+  "id": "451921ad2d64",
+  "title": "Mercury, lead and toxic ingredients found in almost half of fake beauty products, report finds",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tYURlMXllOXhqWE42UWhiWVJhd0NIRExyUTJJNkJpZkxISVNyX1hGQmN5aGtUejR4a1pQSy1VOXZTSkRDUW9Md1FvaE5XaHhpdXl4eDdYeGQ1cGNMaGFtNTRMNW9TTGYzNjdzemYydXI3Ry15ZFhUaVI4RHA?oc=5",
+  "source": "Mamabella",
+  "published": "2026-11-02T02:08:42+00:00",
+  "snippet": "",
+  "region_hint": "UK",
+  "section_hint": "regulation",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "regulation",
+  "regions": [
+   "UK"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Mercury, lead and toxic ingredients found in almost half of fake beauty products, report finds",
+  "summary": "",
+  "ingredients": [
+   "mercury"
+  ],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "f2b30faf8f05": {
+  "id": "f2b30faf8f05",
+  "title": "Drug manufacturing licensing requirements",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOXRmajhVX3hUYnRHYzViWHlSNmpsZ2tOSXlkejVSbzE5R2huSmF0UFhqQmFsUEhMX1h2Ry0yZ1VzNkhlYnlsTkJWZjFOUG5DeGVCZVVBWHo2aTlrTmNtMFdFZnRMdlFGNTBKUk5MVmxZSV9LRWd1MlZJcjlUT2FWZWRsZ1hvenRCc1h4TFBHVkM0SmJE?oc=5",
+  "source": "Wolters Kluwer",
+  "published": "2026-10-29T07:00:00+00:00",
+  "snippet": "",
+  "region_hint": "US",
+  "section_hint": "regulation",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "regulation",
+  "regions": [
+   "US"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Drug manufacturing licensing requirements",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "120ed89666d7": {
+  "id": "120ed89666d7",
+  "title": "Australia Releases PFAS Use Evaluation and Signals Additional Regulatory Action",
+  "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYWEyS1hGaDV2bjZnN2l0VDVXRzBwZ0xZbDBsN181SHp2YUF5Z05FWU1pTkNaNEN2VXM1TGpndTg4LWZEcHl0U0xXT05ZckNOYkhDSmloZm1aMXVnWWJzaHB4b1JfUi1INl9EY0hySmN0NlM5V0JRbENBYTdJR3JManpiUUIxTmJZX01UZmttZVFlc1ZvU2l1SmRwX3M4VEJMY0VMTW92MlpxVF9tV2djSEh3?oc=5",
+  "source": "ArentFox Schiff",
+  "published": "2026-10-30T05:00:00+00:00",
+  "snippet": "",
+  "region_hint": "US",
+  "section_hint": "regulation",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "regulation",
+  "regions": [
+   "US"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Australia Releases PFAS Use Evaluation and Signals Additional Regulatory Action",
+  "summary": "",
+  "ingredients": [
+   "PFAS"
+  ],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "d4daa01c7d88": {
+  "id": "d4daa01c7d88",
+  "title": "What is driving beauty industry growth?",
+  "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG84dWlJdlJDSUc4VG9kd3NmQXd4OTZGOUE3cU5FSHg4bE0tMDF2NUdmeU5ETlE0VkYxT2lSZXlmdzBTUjJxNXgwT0RDRVJpME8tVDR1c3BHbmI4LVF1S25fZEk4M3E3cklHVWlMWUtuRWRiTTBJc2ZDOFlkcTgyZ0J2OWxBRFhVdXJraWN1MHI2SXFXcktYY0dLdw?oc=5",
+  "source": "intheblack",
+  "published": "2026-11-01T22:14:44+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "market",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "What is driving beauty industry growth?",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "12ad4f4bbaf8": {
+  "id": "12ad4f4bbaf8",
+  "title": "How 3B International Is Driving Private-Label Fragrance Growth for Major Retailers",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSWpEd0tRMVcxS3RaV0tWQ21ra1Z1VEVFd1M0eXhKdzhZWjFNQ0VFY20zeTFHbVF3ZzJFQ1lPaC0ySUpqWF9SbEdkS3ZNbXN0VzFJUEdxZmNIUEUtdHBXRUFuWjE0VUhGbFNkVjhkSU1jSlJremxXSVJDQ1ByZDBCTmpodm9VTjZBVWVjbVVpWEg?oc=5",
+  "source": "BeautyMatter",
+  "published": "2026-11-01T20:56:20+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "market",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "fragrance & colour"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "How 3B International Is Driving Private-Label Fragrance Growth for Major Retailers",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "bb6ef30cedc0": {
+  "id": "bb6ef30cedc0",
+  "title": "Operator Urges Financing For Africa’s $66bn Beauty Market",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSE9SYnhhTGhoLUxuQnBUQVBPOVZVZU9mYVdzdGJUdzd3S01oVEVKdzl0RnJSWmNjVWxROGNENWtONnBSa3RCZUZ0MDE4T2Rndy1sSEFlejRnWHAxSW94ZVdScTNiVHF0c0FpVlA5dzhZWS1XQzZndExFbUp2TEplWU4yNDI?oc=5",
+  "source": "LEADERSHIP Newspapers",
+  "published": "2026-11-01T04:12:03+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "market",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Operator Urges Financing For Africa’s $66bn Beauty Market",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "31b9bccf7515": {
+  "id": "31b9bccf7515",
+  "title": "How India's Beauty Shopping Basket Went From ₹800 to ₹2,000 | Nykaa",
+  "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWnZ2dWk5el9jdVZSQkRVX2lFd3lwTVFIRnVzM3dLUlRJd1ZjMG1CUDdlM1FtSmM2ZXZBNWNNWFlqa1E0ZTNQY3R0cmRWQklIWVpKUzdSNFhQVm9oZ1l0QUMtSnBmeHVQUHlfaFdUYU94VHpxdUhmcFlEcENFUm5UaklSNzhsZ0IzU0tuOEZicDc2dXR0XzFkdWM3WUZfWXZ2NTZGV0JIay0yOXBmdTJIclZma29VZ2RsbWFzeE14bGNxcUM4WGhYcVZzY9IB0AFBVV95cUxNcHFfUmpoUVo5ck83NU5pUFFBaEZfWmp3aG5yWEhPOEVIRzF4T2stYVB0eE1WcThqS1U5cXpIWHBKbmJHZWYwWlM4cjduc3ZXc2JyTnREMXRYdnM5V3BHVEQ0Zjd3ODc2Uy1MLWNkWmpjTnVXWjhTSER0ZHRyQkt2N29PWHFUcDdZVGtRTXRPS0ZGZzNCZXBSQ2NWc0lxUzNuSlFfZy1tVC1jelRqX1BuZTIxb2UxWWViZm1RaklDcGNaTkZidDFJLU9NM0tDMm4z?oc=5",
+  "source": "The Economic Times",
+  "published": "2026-10-27T17:18:32+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "market",
+  "regions": [
+   "India"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "How India's Beauty Shopping Basket Went From ₹800 to ₹2,000 | Nykaa",
+  "summary": "",
+  "ingredients": [],
+  "companies": [
+   "Nykaa"
+  ],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "b41c05058d5d": {
+  "id": "b41c05058d5d",
+  "title": "Men's Interest in Appearance Is Growing: 36% Sa… | UNI India",
+  "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZmVkTE4zWVJsV0YzTEM2QnlvSnc3Q1puZmFQTDZZcXd5VXdscFkwMkx5OFd2VXRndDRfRU5yb2JOclhManBBT1dGRjBIRzVNWU5HTE1nVlQ0c09zclpqc1o1Z0NhNEhaYy1KdlIzOFdwc09jZld3NGNtRkpaRWdYUmhHRDBaT1pNbWdKaXU3YjdnYlUxNXRZY1lvTjgtM2x2YVhzT0d0TWpZY2dwemhaQnRKTnFHZk5IQ2dZaXlFYjlRazFxLXBYUTZLTTBGSVlYOVRBd04wUXRNWFEyUXl6MlR3cmVaaDRrRkNVOVBTc0M?oc=5",
+  "source": "uniindia.com",
+  "published": "2026-10-29T22:48:00+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "market",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "market",
+  "regions": [
+   "India"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Men's Interest in Appearance Is Growing: 36% Sa… | UNI India",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "63764c243ff4": {
+  "id": "63764c243ff4",
+  "title": "GLOBAL ICON TATE MCRAE LAUNCHES NAMESAKE FRAGRANCE BRAND IN PARTNERSHIP WITH SCENT BEAUTY",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM3VfU2ZOaHNQaUxObjgwQkNWTnVyNTQ2M21SaXBablVxQzVnUWt3Vy1oMk9Wbmlhc3laYVl6cjExUnZfclFZX25PQ3A3XzBXcHM2Uk9OTWdKMW0ybEZHMG9XQ1RVWnZaQWlCYV9ucmJfQ3o1a3BzaUF0elEwQmhXRGJfWF9sdnM?oc=5",
+  "source": "Yahoo! Finance Canada",
+  "published": "2026-10-29T13:00:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "news",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "news",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "fragrance & colour"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "GLOBAL ICON TATE MCRAE LAUNCHES NAMESAKE FRAGRANCE BRAND IN PARTNERSHIP WITH SCENT BEAUTY",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "0e69293ceaf6": {
+  "id": "0e69293ceaf6",
+  "title": "The 10 Best New Beauty Products of October 2026",
+  "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTDFtMGZDcVVSdlhQRWZzekk4OFZwdUV1TF9BRDNMTmFrTElldjdGdTQ3YmVXYkdubDlTWmlGM1l1T0RYYXBVdl9GTXY3Q2k2VGwzSWxfWnZ3TGpydVV0ZHlmcVgyOEFONGdIUEVYajBFLUpNLUM3cXhSZTc0VGJhSw?oc=5",
+  "source": "W Magazine",
+  "published": "2026-10-30T19:20:31+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "news",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "news",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "The 10 Best New Beauty Products of October 2026",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "5b2262cd9617": {
+  "id": "5b2262cd9617",
+  "title": "Estee Lauder : A Letter from Stéphane de la Faverie",
+  "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWnBKaV95Ul9taEQtS3IzUUVMSmtPWVJTdHk2RzRLbEJ6MTFjUE5XanJfSFgwZWlRODJKcXhjY1pURVdRX29VaHgwUVZ1QzdUVzZPYXJnb3FiSzBDNjg2WU9zUzZUTWlUNi1aZVVLSW9RZHcyX0stUk1WN3dJODQ5V3NMQklpMW56SUUzT09SQW1KbVZldnQxemtIbUtFWGVldXE1Vw?oc=5",
+  "source": "www.marketscreener.com",
+  "published": "2026-10-28T21:56:45+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "company",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "company",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Estee Lauder : A Letter from Stéphane de la Faverie",
+  "summary": "",
+  "ingredients": [],
+  "companies": [
+   "Estee Lauder"
+  ],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "24bcd7df49cb": {
+  "id": "24bcd7df49cb",
+  "title": "Hindustan Unilever fixes Nov 12 as record date for ₹19 interim dividend",
+  "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWYyOHhlUFZOTXBpXzZuSEhJN01sUEZLS2ExRlVFeHFOT1Q1OTV0TGdfcFo0SmFNN2FFV05FRHRLNmRZU1A5aVd5YU1XQ3AzTHJoc25JWTY4WGgzYmx0TFVMN1BQQmdZemh5bTNuUjlicVRNa0R1N2g3d1RhTEZwXzNVeUFhM3NCWW9VUDlKWmd2LWZrbGREdDZoMUZhSnNGQXN3c2d2YWZTRGdhVmZxRU50MUc5cU0?oc=5",
+  "source": "scanx.trade",
+  "published": "2026-10-28T05:05:22+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "company",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "company",
+  "regions": [
+   "India"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Hindustan Unilever fixes Nov 12 as record date for ₹19 interim dividend",
+  "summary": "",
+  "ingredients": [],
+  "companies": [
+   "Unilever",
+   "Hindustan Unilever"
+  ],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "dc85a020403b": {
+  "id": "dc85a020403b",
+  "title": "HUL Q2 results: Volumes grow at multi-quarter high of 7%",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSVZyYmowRVJuUlJ1NjFBMkt5dWIyWFprb0pSN2xOeTdScFBid3I1aWZ4aWd4dEtIR1B6V0NPTEcxZVVJbTNLdHVtNWUtYTh4ald4bWJPc2E5X1oxWGNXelpWQlNaZjJ5Z044b1RSYmpRRWlrTTZrUTdCQ0ltbDRXV1ItSWlnUjFZNkRNUHpOTkZHTEJxNDFtM3FQXzZ5cFRkeFNKbmJ3U1pCZjBLNHRIbw?oc=5",
+  "source": "TradingView",
+  "published": "2026-10-28T08:51:29+00:00",
+  "snippet": "",
+  "region_hint": "India",
+  "section_hint": "company",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "company",
+  "regions": [
+   "India"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "HUL Q2 results: Volumes grow at multi-quarter high of 7%",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "48cbf31f805e": {
+  "id": "48cbf31f805e",
+  "title": "This Skincare Disruptor From Kyoto Is Looking to Take J-Beauty Global",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVlSR3pYVDhBMUVMWloyNFB0ZVdOZzhKLU9XbVh1VTl0alhJcDRlenZ4cXVrdEM5d1VaUWtjV1lwLUFpWm83RGNUTFYzYjI4d044dGRKck9UTXBOcGRVV2xwTmNRRkc5ZUZDZjNSVkFINWIzUTFyU3VqaXZGcnhnaFVLZnl2bTJfcjZjVFBCNS04QkhIWm14cHBMS2JmTkw0?oc=5",
+  "source": "Vogue",
+  "published": "2026-10-30T10:30:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Japan"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "This Skincare Disruptor From Kyoto Is Looking to Take J-Beauty Global",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "b6a9a5a307ac": {
+  "id": "b6a9a5a307ac",
+  "title": "A New Twist on Collagen: Upcycled Jojoba Fermentation for Adaptive Skin Care",
+  "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMGU4V0hRRXR2NC1ORzdVYVJZNkpJRDB5ZFF4UUwtbDViT0FIM2xVTE5VRlpsTUZjUGdQOV9MSEwzWkE2UGZSY1B4QVk2VFZHY181SGZGdWZJaW1ONFFLQTRLZFA5WE5Bem9QZU40ZDR2OTdwUDZhZGJUdlpNM3FIQUtyVmJnUUtCMEdUYVZmT1VFSllKdVA0WTl5anktdw?oc=5",
+  "source": "Happi | Household And Personal Products Industry",
+  "published": "2026-11-01T11:11:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "A New Twist on Collagen: Upcycled Jojoba Fermentation for Adaptive Skin Care",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "73dc8c7330a2": {
+  "id": "73dc8c7330a2",
+  "title": "Peptide Synthesis Reagents Market Forecast to 2035, Driven by Expanding Therapeutic Peptide Pipeline",
+  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVUtseGc3ejllSWlTWFRvenJ5S3RIQ09idEtpTDN1b0ZYSl9QeXJDOEYtWlVXMm1aQlRPTWJKWk1TZmZZQmloZ3NwT2JTNTR4elBVdkUyS1Nrek9HbEEwVk5QeldoVWRMa3FIcllCcHRUb3ZkV1pGdm5SU2VoWDlYLTlhNnV2T3B2aXYyVWtPaGdwV19uZGd6bEhoUjJaSnJlNllsSE9zaW8zWkczbWUxR29RX3hqU21qdmhkN0hXa1NDMmc2WW1mNg?oc=5",
+  "source": "IndexBox",
+  "published": "2026-10-31T20:31:03+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Peptide Synthesis Reagents Market Forecast to 2035, Driven by Expanding Therapeutic Peptide Pipeline",
+  "summary": "",
+  "ingredients": [
+   "peptide"
+  ],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "8da19b69d15c": {
+  "id": "8da19b69d15c",
+  "title": "ThinHeal Strengthens Its Global Presence Through Peptide API Research and Production",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYmllUEswR0pfWTljcF9KLTl4UzRZTGVMaEc2ZW1pQVQxSmRzc0l0eFFDM0ZaSUxPVjlpSDZSUHUySk93aTlHcVplcW85WEc4Q2tVc1RNZTI4dFRzek9Cc0NpdThmTlY1eFBCTHJaM05PRjZnRlY1RUFnMUtHRDRBWGViV09FdVpYMVl6dS01dW5QOGRZeXkxR3Jubm9yQ1F1TjE1SV9feV92SHRJUGlzUVRFeGo5aF92MFlqVXByM0xGQ1ZJ?oc=5",
+  "source": "EIN News",
+  "published": "2026-10-30T05:45:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "google_news",
+  "relevant": false,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "ThinHeal Strengthens Its Global Presence Through Peptide API Research and Production",
+  "summary": "",
+  "ingredients": [
+   "peptide"
+  ],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "60530b864278": {
+  "id": "60530b864278",
+  "title": "Beauty Devices Market To 2035: at-Home Skincare Tech Fuels Growth - News and Statistics",
+  "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYzk3amNhdVZZaENxSGQ1TTZKYjdUc0F5Z2lieFQ3Y2xzaFlNR0F5OUN0ck11ZDZnZW9wWnZHandnbXczenZjcDVvYUtWM1QwQk1YNWxNYkc2dGw5aUswZU41T2ZPNTNMdzV0bUJzemtjX2hfVUVsWlJwRHJBRzg5YjFXMjl4TVZzS1hYYUppNTZROVpsYzJEc2lpSTBSaDBGUnFvcVJiUXJBQ01ZWjh1eDVlWWo?oc=5",
+  "source": "IndexBox",
+  "published": "2026-11-01T13:41:04+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "google_news",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Beauty Devices Market To 2035: at-Home Skincare Tech Fuels Growth - News and Statistics",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "f217023bee4f": {
+  "id": "f217023bee4f",
+  "title": "Integrating DFT-assisted optimization into HPLC-DAD method development: simultaneous determination of four acylphosphine oxide compounds in nail gel polish.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42726201/",
+  "source": "Analytical sciences : the international journal of the Japan Society for Analytical Chemistry",
+  "published": "2026-09-11T00:00:00+00:00",
+  "snippet": "An HPLC-DAD method was established for the simultaneous determination of four synthetic compounds-diphenyl(2,4,6-trimethylbenzoyl)phosphine oxide (TPO), Ethyl phenyl(2,4,6-trimethylbenzoyl)phosphinate (TPO-L), (Di-p-tolylphosphoryl)(mesityl)methanone (TMO), and Phenylbis(2,4,6-trimethylbenzoyl)phosphine oxide (XBPO)-in nail gel polish, addressing potential safety risks such as sensitization and reproductive toxicity. DFT calculations were utilized as theoretical support to screen extraction solvents by evaluating the thermochemical stability, photochemical stability, and homolysis propensity of target molecules, as well as to determine quantification wavelength under complex mobile phase con",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "fragrance & colour"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Integrating DFT-assisted optimization into HPLC-DAD method development: simultaneous determination of four acylphosphine oxide compounds in ",
+  "summary": "An HPLC-DAD method was established for the simultaneous determination of four synthetic compounds-diphenyl(2,4,6-trimethylbenzoyl)phosphine oxide (TPO), Ethyl phenyl(2,4,6-trimethylbenzoyl)phosphinate (TPO-L), (Di-p-tolylphosphoryl)(mesityl)methanone (TMO), and Phenylbis(2,4,6-trimethylbenzoyl)phosphine oxide (XBPO)-in nail gel polish, addressing potential safety risks such as sensitization and…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "f5bb7867718e": {
+  "id": "f5bb7867718e",
+  "title": "Acylated starches of varied chain lengths: Sustainable emulsification, thickening, and physical stability in face creams.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42685955/",
+  "source": "International journal of biological macromolecules",
+  "published": "2026-09-02T00:00:00+00:00",
+  "snippet": "To mitigate environmental impacts and address the sustainability challenges associated with synthetic cosmetic ingredients, developing biodegradable alternatives has become a key industry priority. In this study, acetylated starch (ACS), succinylated starch (SCS), and octenyl succinylated starch (OSAS) were prepared by controlling the acyl chain length and degree of substitution. Their performance as emulsifiers and thickeners in face cream formulations was systematically evaluated to establish structure-function relationships. The results demonstrated that all acylated starches imparted significantly enhanced rheological properties to the face creams compared to native starch. Contact angle",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Acylated starches of varied chain lengths: Sustainable emulsification, thickening, and physical stability in face creams.",
+  "summary": "To mitigate environmental impacts and address the sustainability challenges associated with synthetic cosmetic ingredients, developing biodegradable alternatives has become a key industry priority. In this study, acetylated starch (ACS), succinylated starch (SCS), and octenyl succinylated…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "d07359df9ce2": {
+  "id": "d07359df9ce2",
+  "title": "A dual-function Savinase-catalyzed strategy for enhanced bioactive protein hydrolysate production from Nannochloropsis oculata for personal care and cosmetic applications.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42680025/",
+  "source": "International journal of biological macromolecules",
+  "published": "2026-09-01T00:00:00+00:00",
+  "snippet": "Microalgae are a sustainable source of bioactive proteins for personal care and cosmetic applications. Conventional alkaline extraction can achieve high protein recovery but relies on harsh chemical conditions that often compromise protein integrity, reduce bioactivity, and raise environmental concerns. Moreover, the extracted proteins often require additional enzymatic hydrolysis to enhance their functionality, thus increasing process complexity. This study proposes a dual-function Savinase-assisted in situ extraction strategy for the simultaneous extraction and functionalization of protein from Nannochloropsis oculata (N. oculata). Process optimization using improvement in protein extracti",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "A dual-function Savinase-catalyzed strategy for enhanced bioactive protein hydrolysate production from Nannochloropsis oculata for personal ",
+  "summary": "Microalgae are a sustainable source of bioactive proteins for personal care and cosmetic applications. Conventional alkaline extraction can achieve high protein recovery but relies on harsh chemical conditions that often compromise protein integrity, reduce bioactivity,…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "b840fe82bad8": {
+  "id": "b840fe82bad8",
+  "title": "Secretion Engineering Enables Production of a Structurally Stable and Long-Continuous Type III Collagen Fragment in Pichia pastoris.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42604590/",
+  "source": "Biotechnology and bioengineering",
+  "published": "2026-08-16T00:00:00+00:00",
+  "snippet": "Recombinant humanized type III collagen has attracted increasing interest for biomedical and tissue engineering applications due to its roles in extracellular matrix remodeling and tissue repair. However, the production of long-continuous, structurally stable type III collagen fragment in Pichia pastoris is limited by host-derived proteolysis of the recombinant α1 chain, resulting in fragmentation and loss of structural integrity. In this study, a long-continuous type III collagen fragment was produced in P. pastoris by proteolytic selection and identified as a continuous 585-amino acid sequence (N611-P1195) by LC-MS/MS. Secretion efficiency was improved by signal peptide optimization, enabl",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Secretion Engineering Enables Production of a Structurally Stable and Long-Continuous Type III Collagen Fragment in Pichia pastoris.",
+  "summary": "Recombinant humanized type III collagen has attracted increasing interest for biomedical and tissue engineering applications due to its roles in extracellular matrix remodeling and tissue repair. However, the production of long-continuous, structurally stable type III…",
+  "ingredients": [
+   "peptide"
+  ],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "d7b46ba4df42": {
+  "id": "d7b46ba4df42",
+  "title": "Unlocking native xanthan gum via succinylation to construct a hydrophilicity-driven O/W emulsion gel for enhanced luteolin delivery and pH-responsive release.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42556676/",
+  "source": "International journal of biological macromolecules",
+  "published": "2026-08-05T00:00:00+00:00",
+  "snippet": "Succinylated xanthan gum (SA-XG) was developed to overcome native XG's poor emulsion-stabilizing capacity caused by inherent high hydrophilicity, yielding a biocompatible emulsion stabilizer for food, cosmetic, and pharmaceutical applications. Under optimized conditions (SA-XG degree of substitution (DS) 0.03, 0.5% w/v concentration, and oil fraction (φ) 0.5), the introduction of carboxyl groups via succinylation significantly enhanced the hydrophilicity and swelling capacity of XG (water contact angle reduced from 68.19 ± 0.08° to 32.72 ± 0.05°, swelling ratio increased by 6% versus native XG). Cryo-scanning electron microscopy (cryo-SEM) showed swollen SA-XG formed a honeycomb-like 3D visc",
+  "region_hint": "Global",
+  "section_hint": "technology",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "technology",
+  "regions": [
+   "Global"
+  ],
+  "categories": [],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Unlocking native xanthan gum via succinylation to construct a hydrophilicity-driven O/W emulsion gel for enhanced luteolin delivery and pH-r",
+  "summary": "Succinylated xanthan gum (SA-XG) was developed to overcome native XG's poor emulsion-stabilizing capacity caused by inherent high hydrophilicity, yielding a biocompatible emulsion stabilizer for food, cosmetic, and pharmaceutical applications. Under optimized conditions (SA-XG degree of…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "5882a8fe5a8e": {
+  "id": "5882a8fe5a8e",
+  "title": "Risk assessment of drometrizole trisiloxane as a UV filter in cosmetics.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42948145/",
+  "source": "Toxicological research",
+  "published": "2026-10-04T00:00:00+00:00",
+  "snippet": "Drometrizole trisiloxane is a cosmetic ingredient used as an ultraviolet (UV) filter in sunscreen products. The acute toxicity, repeated-dose toxicity, skin irritation, ocular irritation, skin sensitization, reproductive and developmental toxicity, genotoxicity, carcinogenicity, as well as toxicokinetics and dermal absorption of drometrizole trisiloxane were evaluated. The oral and dermal LD50 values of drometrizole trisiloxane were greater than 2 g/kg in rats. Drometrizole trisiloxane did not induce skin irritation in rabbits or ocular irritation following ocular exposure. In skin sensitization studies conducted in guinea pigs, no sensitization potential was observed. In reproductive and de",
+  "region_hint": "Global",
+  "section_hint": "ingredients",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "ingredients",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care",
+   "sun care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Risk assessment of drometrizole trisiloxane as a UV filter in cosmetics.",
+  "summary": "Drometrizole trisiloxane is a cosmetic ingredient used as an ultraviolet (UV) filter in sunscreen products. The acute toxicity, repeated-dose toxicity, skin irritation, ocular irritation, skin sensitization, reproductive and developmental toxicity, genotoxicity, carcinogenicity, as well as…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "d67d775b7e6d": {
+  "id": "d67d775b7e6d",
+  "title": "Risk assessment of ethyl hexyl salicylate as a UV filter.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42948119/",
+  "source": "Toxicological research",
+  "published": "2026-08-11T00:00:00+00:00",
+  "snippet": "Ethyl hexyl salicylate (EHS) is a salicylate derivative commonly used as a UV filter in cosmetic products at concentrations up to 5%. This study reviews the toxicological profile of EHS, including acute and repeated dose toxicity, skin and eye irritation, skin sensitization, reproductive and developmental toxicity, genotoxicity, phototoxicity, and dermal absorption, in order to assess its safety for cosmetic use. Acute toxicity studies demonstrated low toxicity, with oral and dermal LD50 values exceeding 2 g/kg in rats and 5 g/kg in rabbits, respectively. In a 13-week repeated oral toxicity study in rats, no treatment-related adverse effects were observed at doses up to 250 mg/kg/day, establ",
+  "region_hint": "Global",
+  "section_hint": "ingredients",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "ingredients",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care",
+   "sun care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Risk assessment of ethyl hexyl salicylate as a UV filter.",
+  "summary": "Ethyl hexyl salicylate (EHS) is a salicylate derivative commonly used as a UV filter in cosmetic products at concentrations up to 5%. This study reviews the toxicological profile of EHS, including acute and repeated dose…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "bfacfaf22d0c": {
+  "id": "bfacfaf22d0c",
+  "title": "Risk assessment of benzophenone-3, a UV filter in cosmetics.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42947925/",
+  "source": "Toxicological research",
+  "published": "2026-06-10T00:00:00+00:00",
+  "snippet": "Benzophenone-3 (also known as oxybenzone) is an ultraviolet filter commonly used in sunscreen formulations and personal care products. Given its systemic exposure through dermal and oral absorption, the toxicity of benzophenone-3 has been widely studied. In rodents, dietary exposure to high experimental doses of benzophenone-3 was associated with mild systemic toxicity, including reduction in body weight gain, increase in liver and kidney weights, and signs of nephropathy. While benzophenone-3 was shown to be non-irritating and non-skin sensitizing following ocular instillation and dermal application in animal studies, it has been recognized as a cause of photoallergic contact dermatitis in ",
+  "region_hint": "Global",
+  "section_hint": "ingredients",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "ingredients",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "skin care",
+   "sun care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Risk assessment of benzophenone-3, a UV filter in cosmetics.",
+  "summary": "Benzophenone-3 (also known as oxybenzone) is an ultraviolet filter commonly used in sunscreen formulations and personal care products. Given its systemic exposure through dermal and oral absorption, the toxicity of benzophenone-3 has been widely studied.…",
+  "ingredients": [
+   "oxybenzone",
+   "benzophenone"
+  ],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "7c8a64eaf792": {
+  "id": "7c8a64eaf792",
+  "title": "Correspondence to Abdel Azim et al, \"Sunscreens part 2: Regulation and safety\". Regulatory gaps in sunscreen approval: A comparison of U.S. and Korean UV filters.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42361905/",
+  "source": "Journal of the American Academy of Dermatology",
+  "published": "2026-06-26T00:00:00+00:00",
+  "snippet": "",
+  "region_hint": "Global",
+  "section_hint": "ingredients",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "ingredients",
+  "regions": [
+   "US",
+   "Korea"
+  ],
+  "categories": [
+   "sun care"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Correspondence to Abdel Azim et al, \"Sunscreens part 2: Regulation and safety\". Regulatory gaps in sunscreen approval: A comparison of U.S. ",
+  "summary": "",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "low",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "56d71ed651d4": {
+  "id": "56d71ed651d4",
+  "title": "Toothpaste-Related Attitudes and Practices of Parents of Preschool Children in Istanbul, Türkiye: A Cross-Sectional Study.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42964365/",
+  "source": "International journal of dentistry",
+  "published": "2026-10-30T00:00:00+00:00",
+  "snippet": "To assess parental attitudes and practices regarding toothpaste usage in preschool children attending paediatric outpatient clinics in Istanbul, Türkiye, and to examine associations with socio-demographic characteristics. A cross-sectional questionnaire study was conducted among 203 parents of children under 6 years attending paediatric outpatient departments at two university hospitals in Istanbul (June 2022-February 2023). Toothpaste-related items covered: whether toothpaste was used during brushing and how frequently; reasons for toothpaste usage; whether the child had a separate toothpaste; age at which toothpaste was introduced; who applied toothpaste; amount used; post-brushing behavio",
+  "region_hint": "Global",
+  "section_hint": "formulation",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "formulation",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "oral & hygiene"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Toothpaste-Related Attitudes and Practices of Parents of Preschool Children in Istanbul, Türkiye: A Cross-Sectional Study.",
+  "summary": "To assess parental attitudes and practices regarding toothpaste usage in preschool children attending paediatric outpatient clinics in Istanbul, Türkiye, and to examine associations with socio-demographic characteristics. A cross-sectional questionnaire study was conducted among 203 parents…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules",
+  "emailed": true
+ },
+ "c38c24fe18b5": {
+  "id": "c38c24fe18b5",
+  "title": "Pre-clinical evaluation of the anticaries effect of an experimental Malva sylvestris extract mouthwash using a cariogenic model in situ.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42398621/",
+  "source": "Journal of dentistry",
+  "published": "2026-07-08T00:00:00+00:00",
+  "snippet": "The aim of this study was to evaluate the antimicrobial and anticariogenic potential of Malva sylvestris extract on enamel and dentin in situ. A double-blind crossover in situ study was conducted with 12 participants wearing palatal appliances containing two bovine enamel and two dentin specimens per 3 phases, a total of 72 enamel and dentin specimens. Biofilm formation and daily sucrose exposure were allowed. Treatments were applied twice daily in three phases: Malva sylvestris (2.5%, MS); fluoride (225 ppm, F); and placebo (P). After seven days, biofilm was collected from the bovine specimens for analysis of Lactobacillus spp. and mutans streptococci by Colony Forming Unit counts (CFU log₁",
+  "region_hint": "Global",
+  "section_hint": "formulation",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "formulation",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "oral & hygiene"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Pre-clinical evaluation of the anticaries effect of an experimental Malva sylvestris extract mouthwash using a cariogenic model in situ.",
+  "summary": "The aim of this study was to evaluate the antimicrobial and anticariogenic potential of Malva sylvestris extract on enamel and dentin in situ. A double-blind crossover in situ study was conducted with 12 participants wearing…",
+  "ingredients": [
+   "fluoride"
+  ],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "e854922ccb37": {
+  "id": "e854922ccb37",
+  "title": "Effect of Ceramic Substrate on the Durability of Universal Stain and Glaze Systems.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42144980/",
+  "source": "Journal of esthetic and restorative dentistry : official publication of the American Academy of Esthetic Dentistry ... [et al.]",
+  "published": "2026-05-18T00:00:00+00:00",
+  "snippet": "While external stain and glaze systems enhance the ability of ceramic restorations to mimic natural teeth, evidence of their long-term color stability following toothbrush simulation remains limited. To evaluate color and gloss retention of universal stain and glaze systems on various ceramic substrates under simulated toothbrushing conditions with a whitening dentifrice. Ivocolor, MiYO Color, and MiYO Structure were evaluated on a leucite-reinforced ceramic (LC), lithium disilicate (LD), and 3% mol, 4% mol, and 5% mol yttria partially stabilized zirconias (3Y-MZ, 4Y-MZ, and 5Y-MZ). Specimens were brushed with a linear motion for 50k cycle intervals. Changes in color (CIEΔE2000) and gloss we",
+  "region_hint": "Global",
+  "section_hint": "formulation",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "formulation",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "oral & hygiene"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Effect of Ceramic Substrate on the Durability of Universal Stain and Glaze Systems.",
+  "summary": "While external stain and glaze systems enhance the ability of ceramic restorations to mimic natural teeth, evidence of their long-term color stability following toothbrush simulation remains limited. To evaluate color and gloss retention of universal…",
+  "ingredients": [],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "438640c9cd5f": {
+  "id": "438640c9cd5f",
+  "title": "Parents' View and Awareness About Their Children's Fluoride Therapy: A Systematic Review.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42002829/",
+  "source": "International journal of dental hygiene",
+  "published": "2026-04-19T00:00:00+00:00",
+  "snippet": "To deliver a comprehensive overview of scientific evidence on the parents' awareness and perception of fluoride use in their children's oral care routine. Scientific literature search was conducted for the period from 1974 to February 2023, using the keywords 'fluoride, parents, attitude, perception, children'. Quality and Risk of Bias assessment was performed using the appropriate critical appraisal checklists. The final list of records included 33 articles published from 2006 to 2022 (9 of which were excluded after critical appraisal). Findings revealed that 30% to 36.9% of parents were aware of the recommended frequency of fluoride toothbrushing, while 90.2% were unaware of the fluoride c",
+  "region_hint": "Global",
+  "section_hint": "formulation",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "formulation",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "oral & hygiene"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Parents' View and Awareness About Their Children's Fluoride Therapy: A Systematic Review.",
+  "summary": "To deliver a comprehensive overview of scientific evidence on the parents' awareness and perception of fluoride use in their children's oral care routine. Scientific literature search was conducted for the period from 1974 to February…",
+  "ingredients": [
+   "fluoride"
+  ],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
+ },
+ "e8f446f81b4c": {
+  "id": "e8f446f81b4c",
+  "title": "Erosion Potential of Commercial Fluoride-Free Mouthwashes on Dental Hard Tissues.",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41951957/",
+  "source": "International journal of dental hygiene",
+  "published": "2026-04-08T00:00:00+00:00",
+  "snippet": "Mouthwashes often present acidic pH, which raises concerns about their potential contribution to erosive tooth wear. This study evaluated the erosive potential of commercial fluoride-free mouthwashes using a screening method. A convenience sample of 81 different mouthwashes was evaluated for their erosion potential (International Organization for Standardization, ISO/FDIS 28888:2013). This method measured the pH changes (ΔpH) of 25 mL of calcium phosphate solution (baseline pH 5.05 ± 0.05; mean ± standard deviation) once the test mouthwash was added (0.25 mL). Three citric acid/citrate buffers were used, with the maximum allowable ΔpH based on the strongest buffer. Each mouthwash was tested ",
+  "region_hint": "Global",
+  "section_hint": "formulation",
+  "origin": "pubmed",
+  "relevant": true,
+  "section": "formulation",
+  "regions": [
+   "Global"
+  ],
+  "categories": [
+   "oral & hygiene"
+  ],
+  "regulatory": false,
+  "borderline": false,
+  "headline": "Erosion Potential of Commercial Fluoride-Free Mouthwashes on Dental Hard Tissues.",
+  "summary": "Mouthwashes often present acidic pH, which raises concerns about their potential contribution to erosive tooth wear. This study evaluated the erosive potential of commercial fluoride-free mouthwashes using a screening method. A convenience sample of 81…",
+  "ingredients": [
+   "fluoride"
+  ],
+  "companies": [],
+  "confidence": "high",
+  "first_seen": "2026-11-02",
+  "method": "rules"
  }
 }
